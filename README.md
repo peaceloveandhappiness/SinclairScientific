@@ -1,6 +1,10 @@
 
-# Sinclair Scientific
+# SinclairScientific
 
+An Arduino port of Ken Shirriff Sinclair Scientific Calculator Simulator http://righto.com/sinclair, based on largely [ArduinoEnigma's work.](https://gitlab.com/arduinoenigma/ArduinoNanoSinclairScientificCalculator). 
+
+
+This fork of the firmware code is based on ArduinoEnigma's [SinclairScientific7 version](https://gitlab.com/arduinoenigma/ArduinoNanoSinclairScientificCalculator/tree/master/SinclairScientific7).
 
 
 ## Resources
