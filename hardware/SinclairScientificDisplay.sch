@@ -165,10 +165,10 @@ by exp-lbrs.ulp</description>
 <description>&lt;b&gt;LED DISPLAY&lt;/b&gt;&lt;p&gt;
  10-mm 1 character 7 segment, decimal point right</description>
 <circle x="1.778" y="-3.302" radius="0.3" width="0.254" layer="49"/>
-<wire x1="7.5" y1="-4" x2="-7.5" y2="-4" width="0.1524" layer="21"/>
-<wire x1="7.5" y1="4" x2="7.5" y2="-4" width="0.1524" layer="21"/>
-<wire x1="-7.5" y1="-4" x2="-7.5" y2="4" width="0.1524" layer="21"/>
-<wire x1="-7.5" y1="4" x2="7.5" y2="4" width="0.1524" layer="21"/>
+<wire x1="7.6835" y1="-4.0386" x2="-7.6835" y2="-4.0386" width="0" layer="49"/>
+<wire x1="7.6835" y1="4.0386" x2="7.6835" y2="-4.0386" width="0" layer="49"/>
+<wire x1="-7.6835" y1="-4.0386" x2="-7.6835" y2="4.0386" width="0" layer="49"/>
+<wire x1="-7.6835" y1="4.0386" x2="7.6835" y2="4.0386" width="0" layer="49"/>
 <wire x1="1.778" y1="2.6162" x2="1.3462" y2="2.1844" width="0.254" layer="49"/>
 <wire x1="1.3462" y1="2.1844" x2="0.9906" y2="0.7366" width="0.254" layer="49"/>
 <wire x1="0.9906" y1="0.7366" x2="1.397" y2="0.3302" width="0.254" layer="49"/>
