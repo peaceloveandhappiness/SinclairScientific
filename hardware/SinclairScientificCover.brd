@@ -3,11 +3,11 @@
 <eagle version="9.2.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="12.5" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -167,10 +167,10 @@
 <wire x1="2.54" y1="108.585" x2="-0.635" y2="105.41" width="0" layer="20" curve="90"/>
 <wire x1="-0.635" y1="105.41" x2="-0.635" y2="2.54" width="0" layer="20"/>
 <wire x1="-0.635" y1="2.54" x2="2.54" y2="-0.635" width="0" layer="20" curve="90"/>
-<wire x1="0.3048" y1="101.1936" x2="0.3048" y2="93.1164" width="0" layer="49"/>
-<wire x1="0.3048" y1="93.1164" x2="46.6852" y2="93.1164" width="0" layer="49"/>
-<wire x1="46.6852" y1="93.1164" x2="46.6852" y2="101.1936" width="0" layer="49"/>
-<wire x1="46.6852" y1="101.1936" x2="0.3048" y2="101.1936" width="0" layer="49"/>
+<wire x1="0.508" y1="101.1936" x2="0.508" y2="93.1164" width="0" layer="49"/>
+<wire x1="0.508" y1="93.1164" x2="46.482" y2="93.1164" width="0" layer="49"/>
+<wire x1="46.482" y1="93.1164" x2="46.482" y2="101.1936" width="0" layer="49"/>
+<wire x1="46.482" y1="101.1936" x2="0.508" y2="101.1936" width="0" layer="49"/>
 <circle x="44.45" y="105.41" radius="1.397" width="0.127" layer="49"/>
 <circle x="2.54" y="105.41" radius="1.397" width="0.127" layer="49"/>
 <circle x="2.54" y="2.54" radius="1.397" width="0.127" layer="49"/>

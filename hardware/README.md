@@ -20,6 +20,12 @@
 * Added charging LED that can be seen by user
 * Moved LED segments [B, E] to [D0, D1] pins to allow button input lines to use [D8, D9] exclusively
 
+### v1C
+
+* Fixed footprint for flash memory IC
+* Changed button spacing to match original sinclair dimensions
+* Replaced power switch with SMT device
+
 ### Future Changes
 
 * Consider using LED or 7-segment display driver

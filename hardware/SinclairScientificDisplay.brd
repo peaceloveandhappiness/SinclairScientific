@@ -414,7 +414,7 @@ by exp-lbrs.ulp</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="2352B" urn="urn:adsk.eagle:package:6524807/7" type="model" library_version="11">
+<package3d name="2352B" urn="urn:adsk.eagle:package:6524807/8" type="model" library_version="15" library_locally_modified="yes">
 <description>&lt;b&gt;LED DISPLAY&lt;/b&gt;&lt;p&gt;
  10-mm 1 character 7 segment, decimal point right</description>
 <packageinstances>
@@ -626,16 +626,16 @@ einem neuen Namen ab.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="DIS-13" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="2352B" package3d_urn="urn:adsk.eagle:package:6524807/7" value="LED_3X7-SEGMENT" x="8.1534" y="97.155">
+<element name="DIS-13" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="2352B" package3d_urn="urn:adsk.eagle:package:6524807/8" value="LED_3X7-SEGMENT" x="8.1534" y="97.155">
 <attribute name="NAME" x="8.1534" y="96.655" size="1.016" layer="25" font="vector" ratio="20" align="center"/>
 <attribute name="SPICEPREFIX" value="X" x="8.1534" y="97.155" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="8.1534" y="97.155" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="DIS-46" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="2352B" package3d_urn="urn:adsk.eagle:package:6524807/7" value="LED_3X7-SEGMENT" x="23.495" y="97.155">
+<element name="DIS-46" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="2352B" package3d_urn="urn:adsk.eagle:package:6524807/8" value="LED_3X7-SEGMENT" x="23.495" y="97.155">
 <attribute name="NAME" x="23.495" y="96.655" size="1.016" layer="25" font="vector" ratio="20" align="center"/>
 <attribute name="VALUE" x="23.495" y="97.155" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="DIS-79" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="2352B" package3d_urn="urn:adsk.eagle:package:6524807/7" value="LED_3X7-SEGMENT" x="38.8366" y="97.155">
+<element name="DIS-79" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="2352B" package3d_urn="urn:adsk.eagle:package:6524807/8" value="LED_3X7-SEGMENT" x="38.8366" y="97.155">
 <attribute name="NAME" x="38.8366" y="96.655" size="1.016" layer="25" font="vector" ratio="20" align="center"/>
 <attribute name="VALUE" x="38.8366" y="97.155" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
@@ -670,16 +670,15 @@ einem neuen Namen ab.</description>
 <wire x1="23.495" y1="100.5205" x2="22.733" y2="101.2825" width="0.254" layer="1"/>
 <wire x1="22.733" y1="101.2825" x2="21.277859375" y2="101.2825" width="0.254" layer="1"/>
 <wire x1="21.277859375" y1="101.2825" x2="19.685" y2="99.8134" width="0.254" layer="1"/>
-<wire x1="35.1282" y1="100.5754" x2="35.1282" y2="99.8134" width="0.254" layer="16"/>
-<wire x1="35.1282" y1="100.5754" x2="33.7861" y2="101.9175" width="0.254" layer="16"/>
-<wire x1="6.0284" y1="101.6" x2="4.2418" y2="99.8134" width="0.254" layer="16"/>
-<wire x1="18.034" y1="101.6" x2="6.0284" y2="101.6" width="0.254" layer="16"/>
+<wire x1="6.0284" y1="101.6" x2="18.034" y2="101.6" width="0.254" layer="16"/>
 <wire x1="19.685" y1="99.949" x2="19.685" y2="99.8134" width="0.254" layer="16"/>
 <wire x1="19.685" y1="99.949" x2="18.034" y2="101.6" width="0.254" layer="16"/>
 <wire x1="21.7891" y1="101.9175" x2="19.685" y2="99.8134" width="0.254" layer="16"/>
 <wire x1="33.7861" y1="101.9175" x2="21.7891" y2="101.9175" width="0.254" layer="16"/>
-<wire x1="35.1282" y1="99.8134" x2="35.0266" y2="99.8134" width="0" layer="19" extent="16-16"/>
-<wire x1="4.3434" y1="99.8134" x2="4.2418" y2="99.8134" width="0" layer="19" extent="16-16"/>
+<wire x1="35.0266" y1="99.8134" x2="35.0266" y2="100.677" width="0.254" layer="16"/>
+<wire x1="35.0266" y1="100.677" x2="33.7861" y2="101.9175" width="0.254" layer="16"/>
+<wire x1="4.3434" y1="99.8134" x2="4.3434" y2="99.915" width="0.254" layer="16"/>
+<wire x1="4.3434" y1="99.915" x2="6.0284" y2="101.6" width="0.254" layer="16"/>
 </signal>
 <signal name="LED_B">
 <contactref element="DIS-13" pad="7"/>
@@ -691,7 +690,6 @@ einem neuen Namen ab.</description>
 <wire x1="25.9715" y1="101.9175" x2="16.51" y2="101.9175" width="0.254" layer="1"/>
 <wire x1="29.718" y1="101.854" x2="29.718" y2="99.822" width="0.254" layer="1"/>
 <wire x1="29.718" y1="101.854" x2="29.6545" y2="101.9175" width="0.254" layer="1"/>
-<wire x1="45.23545" y1="99.86205" x2="43.18" y2="101.9175" width="0.254" layer="1"/>
 <wire x1="43.18" y1="101.9175" x2="29.6545" y2="101.9175" width="0.254" layer="1"/>
 <wire x1="29.6545" y1="101.9175" x2="29.5275" y2="101.9175" width="0.254" layer="1"/>
 <wire x1="28.575" y1="96.2025" x2="28.575" y2="90.98" width="0.254" layer="1"/>
@@ -700,12 +698,12 @@ einem neuen Namen ab.</description>
 <wire x1="25.9715" y1="101.9175" x2="25.9715" y2="101.2825" width="0.254" layer="1"/>
 <wire x1="25.9715" y1="101.2825" x2="25.9715" y2="98.806" width="0.254" layer="1"/>
 <wire x1="29.845" y1="99.8134" x2="29.718" y2="99.822" width="0.254" layer="1"/>
-<wire x1="45.2882" y1="99.8134" x2="45.23955" y2="99.86205" width="0.254" layer="1"/>
-<wire x1="45.23955" y1="99.86205" x2="45.23545" y2="99.86205" width="0.254" layer="1"/>
 <wire x1="14.4018" y1="99.8134" x2="14.4018" y2="99.8093" width="0.254" layer="1"/>
 <wire x1="14.4018" y1="99.8093" x2="14.39163125" y2="99.79913125" width="0.254" layer="1"/>
-<wire x1="45.23955" y1="99.86205" x2="45.1866" y2="99.8134" width="0" layer="19" extent="1-1"/>
-<wire x1="14.5034" y1="99.8134" x2="14.4018" y2="99.8134" width="0" layer="19" extent="1-1"/>
+<wire x1="45.1866" y1="99.8134" x2="45.1866" y2="99.9109" width="0.254" layer="1"/>
+<wire x1="45.1866" y1="99.9109" x2="43.18" y2="101.9175" width="0.254" layer="1"/>
+<wire x1="14.5034" y1="99.8134" x2="14.4059" y2="99.8134" width="0.254" layer="1"/>
+<wire x1="14.4059" y1="99.8134" x2="14.39163125" y2="99.79913125" width="0.254" layer="1"/>
 </signal>
 <signal name="LED_C">
 <contactref element="DIS-13" pad="4"/>
@@ -725,11 +723,10 @@ einem neuen Namen ab.</description>
 <wire x1="24.892" y1="94.234" x2="24.765" y2="94.4966" width="0.254" layer="1"/>
 <wire x1="12.7975" y1="91.1225" x2="9.4234" y2="94.4966" width="0.254" layer="1"/>
 <wire x1="17.4625" y1="91.1225" x2="12.7975" y2="91.1225" width="0.254" layer="1"/>
-<wire x1="40.2082" y1="94.9198" x2="40.2082" y2="94.4966" width="0.254" layer="1"/>
-<wire x1="40.2082" y1="94.9198" x2="38.9255" y2="96.2025" width="0.254" layer="1"/>
+<wire x1="40.1066" y1="95.0214" x2="40.1066" y2="94.4966" width="0.254" layer="1"/>
+<wire x1="40.1066" y1="95.0214" x2="38.9255" y2="96.2025" width="0.254" layer="1"/>
 <wire x1="9.4234" y1="94.7166" x2="9.4234" y2="94.4966" width="0.254" layer="16"/>
 <wire x1="11.6713" y1="96.9645" x2="9.4234" y2="94.7166" width="0.254" layer="16"/>
-<wire x1="40.2082" y1="94.4966" x2="40.1066" y2="94.4966" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED_D">
 <contactref element="DIS-13" pad="2"/>
@@ -744,12 +741,11 @@ einem neuen Namen ab.</description>
 <wire x1="19.558" y1="89.989525" x2="19.495" y2="89.9" width="0.254" layer="16"/>
 <wire x1="19.558" y1="94.3696" x2="19.558" y2="93.345" width="0.254" layer="16"/>
 <wire x1="19.685" y1="94.4966" x2="19.558" y2="94.3696" width="0.254" layer="16"/>
-<wire x1="35.1282" y1="94.4966" x2="35.1282" y2="94.3102" width="0.254" layer="16"/>
-<wire x1="35.1282" y1="94.3102" x2="33.909" y2="93.091" width="0.254" layer="16"/>
-<wire x1="4.3094" y1="94.4966" x2="4.2418" y2="94.4966" width="0.254" layer="16"/>
-<wire x1="5.715" y1="93.091" x2="4.3094" y2="94.4966" width="0.254" layer="16"/>
-<wire x1="35.1282" y1="94.4966" x2="35.0266" y2="94.4966" width="0" layer="19" extent="16-16"/>
-<wire x1="4.3434" y1="94.4966" x2="4.3094" y2="94.4966" width="0" layer="19" extent="16-16"/>
+<wire x1="34.9885" y1="94.1705" x2="33.909" y2="93.091" width="0.254" layer="16"/>
+<wire x1="4.3434" y1="94.4966" x2="4.3434" y2="94.4626" width="0.254" layer="16"/>
+<wire x1="5.715" y1="93.091" x2="4.3434" y2="94.4626" width="0.254" layer="16"/>
+<wire x1="35.0266" y1="94.4966" x2="35.0266" y2="94.2086" width="0.254" layer="16"/>
+<wire x1="35.0266" y1="94.2086" x2="34.9885" y2="94.1705" width="0.254" layer="16"/>
 </signal>
 <signal name="LED_E">
 <contactref element="DIS-13" pad="1"/>
@@ -772,12 +768,11 @@ einem neuen Namen ab.</description>
 <wire x1="4.241" y1="93.2315" x2="2.6535" y2="93.2315" width="0.254" layer="16"/>
 <wire x1="2.6535" y1="93.2315" x2="1.6153" y2="94.2697" width="0.254" layer="16"/>
 <wire x1="17.145" y1="94.2934" x2="17.145" y2="92.075" width="0.254" layer="1"/>
-<wire x1="32.5882" y1="94.2934" x2="30.4968" y2="92.202" width="0.254" layer="1"/>
 <wire x1="30.4968" y1="92.202" x2="30.0355" y2="92.202" width="0.254" layer="1"/>
-<wire x1="1.7018" y1="94.2934" x2="1.639" y2="94.2934" width="0.254" layer="16"/>
 <wire x1="1.639" y1="94.2934" x2="1.6153" y2="94.2697" width="0.254" layer="16"/>
-<wire x1="32.5882" y1="94.2934" x2="32.4866" y2="94.2934" width="0" layer="19" extent="1-1"/>
-<wire x1="1.8034" y1="94.2934" x2="1.7018" y2="94.2934" width="0" layer="19" extent="16-16"/>
+<wire x1="32.4866" y1="94.2934" x2="32.4866" y2="94.1918" width="0.254" layer="1"/>
+<wire x1="32.4866" y1="94.1918" x2="30.4968" y2="92.202" width="0.254" layer="1"/>
+<wire x1="1.8034" y1="94.2934" x2="1.639" y2="94.2934" width="0.254" layer="16"/>
 </signal>
 <signal name="LED_F">
 <contactref element="DIS-13" pad="10"/>
@@ -809,8 +804,8 @@ einem neuen Namen ab.</description>
 <wire x1="36.4658" y1="101.219" x2="30.861" y2="101.219" width="0.254" layer="1"/>
 <wire x1="6.7818" y1="100.0166" x2="6.7818" y2="99.6442" width="0.254" layer="1"/>
 <wire x1="8.636" y1="97.79" x2="6.7818" y2="99.6442" width="0.254" layer="1"/>
-<wire x1="37.6682" y1="100.0166" x2="37.5666" y2="100.0166" width="0" layer="19" extent="1-1"/>
-<wire x1="6.8834" y1="100.0166" x2="6.7818" y2="100.0166" width="0" layer="19" extent="1-1"/>
+<wire x1="6.8834" y1="100.0166" x2="6.7818" y2="100.0166" width="0.254" layer="1"/>
+<wire x1="37.5666" y1="100.0166" x2="37.6682" y2="100.0166" width="0.254" layer="1"/>
 </signal>
 <signal name="LED_G">
 <contactref element="DIS-13" pad="5"/>
@@ -832,12 +827,11 @@ einem neuen Namen ab.</description>
 <wire x1="29.083" y1="92.964" x2="29.083" y2="91.821" width="0.254" layer="1"/>
 <wire x1="27.432" y1="94.5515" x2="27.305" y2="94.2934" width="0.254" layer="16"/>
 <wire x1="27.432" y1="94.5515" x2="26.035" y2="95.9485" width="0.254" layer="16"/>
-<wire x1="11.8618" y1="94.4118" x2="11.8618" y2="94.2934" width="0.254" layer="16"/>
+<wire x1="11.8618" y1="94.2934" x2="11.8618" y2="94.4118" width="0.254" layer="16"/>
 <wire x1="13.3985" y1="95.9485" x2="11.8618" y2="94.4118" width="0.254" layer="16"/>
-<wire x1="42.7482" y1="94.2934" x2="42.72065" y2="94.32095" width="0.254" layer="16"/>
-<wire x1="42.72065" y1="94.32095" x2="42.56845" y2="94.32095" width="0.254" layer="16"/>
-<wire x1="42.7482" y1="94.2934" x2="42.6466" y2="94.2934" width="0" layer="19" extent="16-16"/>
-<wire x1="11.9634" y1="94.2934" x2="11.8618" y2="94.2934" width="0" layer="19" extent="16-16"/>
+<wire x1="42.6466" y1="94.2934" x2="42.596" y2="94.2934" width="0.254" layer="16"/>
+<wire x1="42.596" y1="94.2934" x2="42.56845" y2="94.32095" width="0.254" layer="16"/>
+<wire x1="11.9634" y1="94.2934" x2="11.8618" y2="94.2934" width="0.254" layer="16"/>
 </signal>
 <signal name="LED_DP">
 <contactref element="DIS-13" pad="3"/>
@@ -861,7 +855,7 @@ einem neuen Namen ab.</description>
 <wire x1="35.7673" y1="92.3925" x2="31.8135" y2="92.3925" width="0.254" layer="16"/>
 <wire x1="6.8834" y1="94.9706" x2="6.8834" y2="94.2934" width="0.254" layer="1"/>
 <wire x1="8.7503" y1="96.8375" x2="6.8834" y2="94.9706" width="0.254" layer="1"/>
-<wire x1="37.6682" y1="94.2934" x2="37.5666" y2="94.2934" width="0" layer="19" extent="16-16"/>
+<wire x1="37.5666" y1="94.2934" x2="37.6682" y2="94.2934" width="0.254" layer="16"/>
 </signal>
 <signal name="LED_CA2">
 <contactref element="DIS-13" pad="9"/>
@@ -880,7 +874,7 @@ einem neuen Namen ab.</description>
 <wire x1="9.271" y1="99.441" x2="7.3025" y2="97.4725" width="0.254" layer="16"/>
 <wire x1="9.3218" y1="99.8134" x2="9.271" y2="99.7626" width="0.254" layer="16"/>
 <wire x1="9.271" y1="99.7626" x2="9.271" y2="99.441" width="0.254" layer="16"/>
-<wire x1="9.3218" y1="99.8134" x2="9.4234" y2="99.8134" width="0" layer="19" extent="16-16"/>
+<wire x1="9.4234" y1="99.8134" x2="9.3218" y2="99.8134" width="0.254" layer="16"/>
 </signal>
 <signal name="LED_CA5">
 <contactref element="DIS-46" pad="9"/>
@@ -918,7 +912,7 @@ einem neuen Namen ab.</description>
 <via x="8.255" y="88.265" extent="1-16" drill="0.3048"/>
 <wire x1="11.8618" y1="100.0166" x2="11.7475" y2="99.9023" width="0.254" layer="16"/>
 <wire x1="11.7475" y1="99.9023" x2="11.7475" y2="99.7585" width="0.254" layer="16"/>
-<wire x1="11.8618" y1="100.0166" x2="11.9634" y2="100.0166" width="0" layer="19" extent="16-16"/>
+<wire x1="11.9634" y1="100.0166" x2="11.8618" y2="100.0166" width="0.254" layer="16"/>
 </signal>
 <signal name="LED_CA6">
 <contactref element="DIS-46" pad="8"/>
@@ -956,9 +950,9 @@ einem neuen Namen ab.</description>
 <wire x1="13.9065" y1="88.9" x2="10.16" y2="88.9" width="0.254" layer="1"/>
 <wire x1="15.495" y1="87.9" x2="14.9065" y2="87.9" width="0.254" layer="1"/>
 <wire x1="14.9065" y1="87.9" x2="13.9065" y2="88.9" width="0.254" layer="1"/>
-<wire x1="1.7018" y1="100.0166" x2="1.7018" y2="99.8982" width="0.254" layer="1"/>
-<wire x1="5.588" y1="96.012" x2="1.7018" y2="99.8982" width="0.254" layer="1"/>
-<wire x1="1.7018" y1="100.0166" x2="1.8034" y2="100.0166" width="0" layer="19" extent="1-1"/>
+<wire x1="1.7018" y1="99.8982" x2="5.588" y2="96.012" width="0.254" layer="1"/>
+<wire x1="1.8034" y1="100.0166" x2="1.8034" y2="99.9998" width="0.254" layer="1"/>
+<wire x1="1.8034" y1="99.9998" x2="1.7018" y2="99.8982" width="0.254" layer="1"/>
 </signal>
 <signal name="LED_CA4">
 <contactref element="DIS-46" pad="12"/>
@@ -999,7 +993,7 @@ einem neuen Namen ab.</description>
 <via x="32.7025" y="91.1225" extent="1-16" drill="0.3048"/>
 <wire x1="32.5882" y1="100.0166" x2="32.5882" y2="99.5172" width="0.254" layer="16"/>
 <wire x1="32.5882" y1="99.5172" x2="32.512" y2="99.441" width="0.254" layer="16"/>
-<wire x1="32.5882" y1="100.0166" x2="32.4866" y2="100.0166" width="0" layer="19" extent="16-16"/>
+<wire x1="32.4866" y1="100.0166" x2="32.5882" y2="100.0166" width="0.254" layer="16"/>
 </signal>
 <signal name="LED_CA8">
 <contactref element="DIS-79" pad="9"/>
@@ -1015,9 +1009,9 @@ einem neuen Namen ab.</description>
 <wire x1="29.495" y1="87.9785" x2="29.495" y2="87.9" width="0.254" layer="16"/>
 <via x="43.561" y="96.139" extent="1-16" drill="0.3048"/>
 <via x="38.9255" y="89.535" extent="1-16" drill="0.3048"/>
-<wire x1="43.561" y1="96.4606" x2="40.2082" y2="99.8134" width="0.254" layer="16"/>
+<wire x1="40.2082" y1="99.8134" x2="43.561" y2="96.4606" width="0.254" layer="16"/>
 <wire x1="43.561" y1="96.4606" x2="43.561" y2="96.139" width="0.254" layer="16"/>
-<wire x1="40.2082" y1="99.8134" x2="40.1066" y2="99.8134" width="0" layer="19" extent="16-16"/>
+<wire x1="40.1066" y1="99.8134" x2="40.2082" y2="99.8134" width="0.254" layer="16"/>
 </signal>
 <signal name="LED_CA9">
 <contactref element="DIS-79" pad="8"/>
@@ -1030,9 +1024,9 @@ einem neuen Namen ab.</description>
 <wire x1="32.385" y1="88.5825" x2="31.75" y2="87.9475" width="0.254" layer="16"/>
 <wire x1="31.75" y1="87.9475" x2="31.495" y2="87.9" width="0.254" layer="16"/>
 <via x="33.655" y="88.5825" extent="1-16" drill="0.3048"/>
-<wire x1="42.672" y1="99.9404" x2="42.672" y2="96.647" width="0.254" layer="1"/>
-<wire x1="42.7482" y1="100.0166" x2="42.672" y2="99.9404" width="0.254" layer="1"/>
-<wire x1="42.7482" y1="100.0166" x2="42.6466" y2="100.0166" width="0" layer="19" extent="1-1"/>
+<wire x1="42.672" y1="99.8896" x2="42.672" y2="96.647" width="0.254" layer="1"/>
+<wire x1="42.672" y1="99.8896" x2="42.6466" y2="99.915" width="0.254" layer="1"/>
+<wire x1="42.6466" y1="99.915" x2="42.6466" y2="100.0166" width="0.254" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

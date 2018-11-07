@@ -865,7 +865,7 @@ by exp-lbrs.ulp</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="2352B" urn="urn:adsk.eagle:package:6524807/7" type="model" library_version="11">
+<package3d name="2352B" urn="urn:adsk.eagle:package:6524807/8" type="model" library_version="15" library_locally_modified="yes">
 <description>&lt;b&gt;LED DISPLAY&lt;/b&gt;&lt;p&gt;
  10-mm 1 character 7 segment, decimal point right</description>
 <packageinstances>
@@ -1024,7 +1024,7 @@ by exp-lbrs.ulp</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LED_3X7-SEGMENT" urn="urn:adsk.eagle:component:6524827/6" prefix="DIS" library_version="11">
+<deviceset name="LED_3X7-SEGMENT" urn="urn:adsk.eagle:component:6524827/7" prefix="DIS" library_version="15" library_locally_modified="yes">
 <description>&lt;b&gt;SINGLE DIGIT NUMERIC DISPLAY &lt;b&gt; 9.9mm (0.39INCH) &lt;p&gt;
 Source: SC39-11EWA.pdf</description>
 <gates>
@@ -1046,7 +1046,7 @@ Source: SC39-11EWA.pdf</description>
 <connect gate="G$1" pin="G" pad="5"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6524807/7"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6524807/8"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1075,11 +1075,11 @@ Source: SC39-11EWA.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="DIS-13" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="LED_3X7-SEGMENT" device="" package3d_urn="urn:adsk.eagle:package:6524807/7">
+<part name="DIS-13" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="LED_3X7-SEGMENT" device="" package3d_urn="urn:adsk.eagle:package:6524807/8">
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
-<part name="DIS-46" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="LED_3X7-SEGMENT" device="" package3d_urn="urn:adsk.eagle:package:6524807/7"/>
-<part name="DIS-79" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="LED_3X7-SEGMENT" device="" package3d_urn="urn:adsk.eagle:package:6524807/7"/>
+<part name="DIS-46" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="LED_3X7-SEGMENT" device="" package3d_urn="urn:adsk.eagle:package:6524807/8"/>
+<part name="DIS-79" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="LED_3X7-SEGMENT" device="" package3d_urn="urn:adsk.eagle:package:6524807/8"/>
 <part name="FRAME2" library="SinclairScientific" deviceset="LETTER_L" device="">
 <attribute name="SECTION" value="Displays"/>
 </part>

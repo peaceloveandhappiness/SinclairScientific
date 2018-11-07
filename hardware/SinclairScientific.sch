@@ -9,34 +9,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="14" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="13" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="14" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="13" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="14" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="13" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="14" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="13" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -45,8 +45,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -54,19 +54,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
@@ -5904,7 +5904,7 @@ FCI</description>
 <text x="0" y="5.715" size="1.016" layer="25" font="vector" ratio="20" align="center">&gt;NAME</text>
 <text x="0" y="2.54" size="1.016" layer="27" font="vector" ratio="20" align="center">&gt;VALUE</text>
 </package>
-<package name="TACT_6X6" urn="urn:adsk.eagle:footprint:6524596/2" locally_modified="yes" library_version="14" library_locally_modified="yes">
+<package name="TACT_6X6" urn="urn:adsk.eagle:footprint:6524596/3" library_version="15" library_locally_modified="yes">
 <circle x="0" y="0" radius="1.8" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="1.4" width="0.127" layer="21"/>
 <wire x1="-3" y1="3" x2="3" y2="3" width="0.127" layer="21"/>
@@ -6724,7 +6724,7 @@ FCI</description>
 <pad name="2" x="0" y="0" drill="1.85" diameter="2.45"/>
 <pad name="3" x="0" y="-4.7" drill="1.85" diameter="2.45"/>
 </package>
-<package name="CL-SB-12B" urn="urn:adsk.eagle:footprint:6619162/1" locally_modified="yes" library_version="14" library_locally_modified="yes">
+<package name="CL-SB-12B" urn="urn:adsk.eagle:footprint:6619162/2" library_version="15" library_locally_modified="yes">
 <wire x1="-4.25" y1="1.75" x2="4.25" y2="1.75" width="0.127" layer="21"/>
 <wire x1="4.25" y1="1.75" x2="4.25" y2="-1.75" width="0.127" layer="21"/>
 <wire x1="4.25" y1="-1.75" x2="-4.25" y2="-1.75" width="0.127" layer="21"/>
@@ -6770,7 +6770,7 @@ FCI</description>
 <packageinstance name="USB-10118192-0001LF"/>
 </packageinstances>
 </package3d>
-<package3d name="TACT_6X6" urn="urn:adsk.eagle:package:6524808/3" locally_modified="yes" type="model" library_version="14" library_locally_modified="yes">
+<package3d name="TACT_6X6" urn="urn:adsk.eagle:package:6524808/4" type="model" library_version="15" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="TACT_6X6"/>
 </packageinstances>
@@ -6913,7 +6913,7 @@ FCI</description>
 <packageinstance name="SW_1101M2S3CQE2"/>
 </packageinstances>
 </package3d>
-<package3d name="CL-SB-12B" urn="urn:adsk.eagle:package:6619163/2" locally_modified="yes" type="model" library_version="14" library_locally_modified="yes">
+<package3d name="CL-SB-12B" urn="urn:adsk.eagle:package:6619163/3" type="model" library_version="15" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="CL-SB-12B"/>
 </packageinstances>
@@ -7347,7 +7347,7 @@ FCI</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SPST_TACT" urn="urn:adsk.eagle:component:6524837/3" locally_modified="yes" prefix="SW" library_version="14" library_locally_modified="yes">
+<deviceset name="SPST_TACT" urn="urn:adsk.eagle:component:6524837/4" prefix="SW" library_version="15" library_locally_modified="yes">
 <description>SMT 6mm switch, EVQQ2 series
 &lt;p&gt;http://www.ladyada.net/library/eagle&lt;/p&gt;</description>
 <gates>
@@ -7404,7 +7404,7 @@ FCI</description>
 <connect gate="G$1" pin="S1" pad="B'"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6524808/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6524808/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -8123,7 +8123,7 @@ http://www.tag-connect.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SPDT_SLIDE" urn="urn:adsk.eagle:component:6524822/3" locally_modified="yes" prefix="S" library_version="14" library_locally_modified="yes">
+<deviceset name="SPDT_SLIDE" urn="urn:adsk.eagle:component:6524822/4" prefix="S" library_version="15" library_locally_modified="yes">
 <description>Switch, Slide, PC Terminal, SPST, ON-NONE-OFF, 0.4VA MAX@120VAC OR VDC MAX</description>
 <gates>
 <gate name="G$1" symbol="1101M2S3CQE2" x="-2.54" y="0"/>
@@ -8156,7 +8156,7 @@ http://www.tag-connect.com</description>
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6619163/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6619163/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -8176,7 +8176,7 @@ http://www.tag-connect.com</description>
 <attribute name="DRAWING_NUM" value=""/>
 <attribute name="DRAWING_SCALE" value=""/>
 <attribute name="LICENSE" value="CC-BY-SA"/>
-<attribute name="REV" value="1B"/>
+<attribute name="REV" value="1C"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -8259,24 +8259,24 @@ http://www.tag-connect.com</description>
 <attribute name="SECTION" value="Power &amp; MCU"/>
 </part>
 <part name="U$2" library="SinclairScientific" deviceset="FIDUCIAL" device="&quot;&quot;"/>
-<part name="SW-1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/3" value="SPST_TACT-6X6"/>
-<part name="SW-5" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/3" value="SPST_TACT-6X6"/>
-<part name="SW-6" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/3" value="SPST_TACT-6X6"/>
-<part name="SW-7" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/3" value="SPST_TACT-6X6"/>
-<part name="SW-8" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/3" value="SPST_TACT-6X6"/>
-<part name="SW-9" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/3" value="SPST_TACT-6X6"/>
-<part name="SW-2" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/3" value="SPST_TACT-6X6"/>
-<part name="SW-3" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/3" value="SPST_TACT-6X6"/>
-<part name="SW-4" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/3" value="SPST_TACT-6X6"/>
-<part name="SW-C" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/3" value="SPST_TACT-6X6"/>
-<part name="SW-DIV" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/3" value="SPST_TACT-6X6"/>
-<part name="SW-MULT" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/3" value="SPST_TACT-6X6"/>
-<part name="SW-UP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/3" value="SPST_TACT-6X6"/>
-<part name="SW-E" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/3" value="SPST_TACT-6X6"/>
-<part name="SW-0" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/3" value="SPST_TACT-6X6"/>
-<part name="SW-DWN" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/3" value="SPST_TACT-6X6"/>
-<part name="SW-PLUS" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/3" value="SPST_TACT-6X6"/>
-<part name="SW-MINUS" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/3" value="SPST_TACT-6X6"/>
+<part name="SW-1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
+<part name="SW-5" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
+<part name="SW-6" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
+<part name="SW-7" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
+<part name="SW-8" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
+<part name="SW-9" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
+<part name="SW-2" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
+<part name="SW-3" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
+<part name="SW-4" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
+<part name="SW-C" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
+<part name="SW-DIV" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
+<part name="SW-MULT" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
+<part name="SW-UP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
+<part name="SW-E" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
+<part name="SW-0" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
+<part name="SW-DWN" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
+<part name="SW-PLUS" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
+<part name="SW-MINUS" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
 <part name="R3" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="3.3k"/>
 <part name="R4" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="3.3k"/>
 <part name="U$9" library="SinclairScientific" deviceset="GND" device=""/>
@@ -8331,7 +8331,7 @@ http://www.tag-connect.com</description>
 </part>
 <part name="U$18" library="SinclairScientific" deviceset="SILK_QC" device="">
 <attribute name="PRODUCT" value="SinclairScientific"/>
-<attribute name="REV" value="1B"/>
+<attribute name="REV" value="1C"/>
 </part>
 <part name="U$19" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SWXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
 <part name="U$20" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SWXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
@@ -8351,7 +8351,7 @@ http://www.tag-connect.com</description>
 <part name="U$47" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SWXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
 <part name="U$48" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SWXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
 <part name="U$49" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SWXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
-<part name="S1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPDT_SLIDE" device="-CB-SB-12B" package3d_urn="urn:adsk.eagle:package:6619163/2"/>
+<part name="S1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPDT_SLIDE" device="-CB-SB-12B" package3d_urn="urn:adsk.eagle:package:6619163/3"/>
 </parts>
 <sheets>
 <sheet>
