@@ -332,58 +332,6 @@ by exp-lbrs.ulp</description>
 <text x="1.905" y="0" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
 <text x="1.905" y="-0.635" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="FIDUCIAL_1MM">
-<wire x1="-0.75" y1="0" x2="0" y2="0.75" width="0.5" layer="29" curve="-90"/>
-<wire x1="0" y1="0.75" x2="0.75" y2="0" width="0.5" layer="29" curve="-90"/>
-<wire x1="0.75" y1="0" x2="0" y2="-0.75" width="0.5" layer="29" curve="-90"/>
-<wire x1="0" y1="-0.75" x2="-0.75" y2="0" width="0.5" layer="29" curve="-90"/>
-<wire x1="-0.75" y1="0" x2="0" y2="0.75" width="0.5" layer="41" curve="-90"/>
-<wire x1="0" y1="0.75" x2="0.75" y2="0" width="0.5" layer="41" curve="-90"/>
-<wire x1="0.75" y1="0" x2="0" y2="-0.75" width="0.5" layer="41" curve="-90"/>
-<wire x1="0" y1="-0.75" x2="-0.75" y2="0" width="0.5" layer="41" curve="-90"/>
-<wire x1="-0.75" y1="0" x2="0" y2="0.75" width="0.5" layer="39" curve="-90"/>
-<wire x1="0" y1="0.75" x2="0.75" y2="0" width="0.5" layer="39" curve="-90"/>
-<wire x1="0.75" y1="0" x2="0" y2="-0.75" width="0.5" layer="39" curve="-90"/>
-<wire x1="0" y1="-0.75" x2="-0.75" y2="0" width="0.5" layer="39" curve="-90"/>
-<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
-</package>
-<package name="FIDUCIAL-1X2.5">
-<circle x="0" y="0" radius="1.1" width="1.2" layer="29"/>
-<circle x="0" y="0" radius="1.1" width="1.2" layer="39"/>
-<circle x="0" y="0" radius="1.1" width="1.2" layer="41"/>
-<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
-<text x="-0.508" y="-1.016" size="0.4064" layer="25">1mm</text>
-</package>
-<package name="PASS-ROUND">
-<description>&lt;b&gt;FIDUCIAL MARKER&lt;/b&gt;&lt;p&gt;
-round, layers 1 + 16 + 21 + 39 + 49</description>
-<circle x="0" y="0" radius="1.27" width="0.1524" layer="49"/>
-<circle x="0" y="0" radius="1.27" width="0.1524" layer="49"/>
-<circle x="0" y="0" radius="1.27" width="0.1524" layer="1"/>
-<circle x="0" y="0" radius="1.27" width="0.1524" layer="16"/>
-<circle x="0" y="0" radius="2.54" width="0" layer="29"/>
-<circle x="0" y="0" radius="2.54" width="0" layer="30"/>
-<wire x1="0" y1="0.508" x2="0.508" y2="0" width="1.4224" layer="49" curve="-90" cap="flat"/>
-<wire x1="-0.508" y1="0" x2="0" y2="-0.508" width="1.4224" layer="49" curve="90" cap="flat"/>
-<wire x1="0" y1="0.508" x2="0.508" y2="0" width="1.4224" layer="49" curve="-90" cap="flat"/>
-<wire x1="-0.508" y1="0" x2="0" y2="-0.508" width="1.4224" layer="49" curve="90" cap="flat"/>
-<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="49"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="49"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.1524" layer="49"/>
-<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="49"/>
-<wire x1="-2.54" y1="0" x2="-1.524" y2="0" width="0.1524" layer="1"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.524" width="0.1524" layer="1"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-1.524" width="0.1524" layer="1"/>
-<wire x1="2.54" y1="0" x2="1.524" y2="0" width="0.1524" layer="1"/>
-<wire x1="-2.54" y1="0" x2="-1.524" y2="0" width="0.1524" layer="16"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.524" width="0.1524" layer="16"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-1.524" width="0.1524" layer="16"/>
-<wire x1="2.54" y1="0" x2="1.524" y2="0" width="0.1524" layer="16"/>
-<wire x1="0.0254" y1="0.5842" x2="0.5842" y2="0.0254" width="1.1176" layer="16" curve="-90" cap="flat"/>
-<wire x1="0.0254" y1="0.5842" x2="0.5842" y2="0.0254" width="1.1176" layer="1" curve="-90" cap="flat"/>
-<wire x1="-0.5842" y1="-0.0254" x2="-0.0254" y2="-0.5842" width="1.1176" layer="16" curve="90" cap="flat"/>
-<wire x1="-0.5842" y1="-0.0254" x2="-0.0254" y2="-0.5842" width="1.1176" layer="1" curve="90" cap="flat"/>
-</package>
 <package name="XTAL3215">
 <wire x1="1.6" y1="-0.4172" x2="1.3172" y2="-0.7" width="0.127" layer="21" curve="-90"/>
 <wire x1="1.3172" y1="-0.7" x2="-1.3172" y2="-0.7" width="0.127" layer="21"/>
@@ -3607,17 +3555,6 @@ Source: VISHAY wscwsn.pdf</description>
 <text x="-8.75" y="3.9" size="1.27" layer="25">&gt;NAME</text>
 <text x="-8.75" y="-5.15" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="SILK_QC">
-<text x="2.54" y="1.27" size="2.032" layer="21" font="vector" ratio="15" align="center-left">&gt;REV</text>
-<text x="0" y="5.08" size="2.032" layer="21" font="vector" ratio="15" align="center">&gt;PRODUCT</text>
-<text x="-6.35" y="1.397" size="2.032" layer="21" font="vector" ratio="15" align="center-left">Rev.</text>
-<polygon width="0.4064" layer="21">
-<vertex x="-11.43" y="-1.27"/>
-<vertex x="11.43" y="-1.27"/>
-<vertex x="11.43" y="-8.89"/>
-<vertex x="-11.43" y="-8.89"/>
-</polygon>
-</package>
 </packages>
 <packages3d>
 <package3d name="C0603" urn="urn:adsk.eagle:package:23616/2" locally_modified="yes" type="model">
@@ -3682,11 +3619,6 @@ Source: VISHAY wscwsn.pdf</description>
 <wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
 <pin name="VBAT" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="-1.524" y="1.016" size="1.27" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="FIDUCIAL">
-<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
 </symbol>
 <symbol name="XTAL">
 <wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
@@ -3794,15 +3726,6 @@ Source: VISHAY wscwsn.pdf</description>
 <pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
 <text x="0" y="5.08" size="1.778" layer="95" align="center">&gt;NAME</text>
 <text x="0" y="2.54" size="1.778" layer="96" align="center">&gt;VALUE</text>
-</symbol>
-<symbol name="SILK_QC">
-<wire x1="0" y1="2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="27.94" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="27.94" y1="-5.08" x2="27.94" y2="2.54" width="0.254" layer="94"/>
-<wire x1="27.94" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
-<text x="2.54" y="0" size="2.032" layer="94" align="center-left">&gt;PRODUCT</text>
-<text x="10.16" y="-2.54" size="2.032" layer="94" align="center-left">&gt;REV</text>
-<text x="2.54" y="-2.54" size="2.032" layer="94" align="center-left">Rev.</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3933,36 +3856,6 @@ Source: VISHAY wscwsn.pdf</description>
 <device name="">
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FIDUCIAL" prefix="FID">
-<description>&lt;b&gt;Fiducial Alignment Points&lt;/b&gt;
-&lt;p&gt;Various fiducial points for machine vision alignment.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="&quot;&quot;" package="FIDUCIAL_1MM">
-<technologies>
-<technology name="">
-<attribute name="BOM" value="EXCLUDE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="1X2.5" package="FIDUCIAL-1X2.5">
-<technologies>
-<technology name="">
-<attribute name="BOM" value="EXCLUDE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="ROUND" package="PASS-ROUND">
-<technologies>
-<technology name="">
-<attribute name="BOM" value="EXCLUDE" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -5537,23 +5430,6 @@ LETTER landscape</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SILK_QC">
-<description>Model/Version Tag Silkscreen</description>
-<gates>
-<gate name="G$1" symbol="SILK_QC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SILK_QC">
-<technologies>
-<technology name="">
-<attribute name="MPN" value="DNP" constant="no"/>
-<attribute name="PRODUCT" value="" constant="no"/>
-<attribute name="REV" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 <library name="SinclairScientific" urn="urn:adsk.eagle:library:6524367">
@@ -6421,7 +6297,7 @@ FCI</description>
 <vertex x="2.954" y="1.681"/>
 </polygon>
 </package>
-<package name="TQFP48_7MM" urn="urn:adsk.eagle:footprint:6524576/1" library_version="4">
+<package name="TQFP48_7MM" urn="urn:adsk.eagle:footprint:6524576/2" library_version="16">
 <circle x="-4.445" y="3.81" radius="0.381" width="0" layer="21"/>
 <circle x="-2.286" y="2.286" radius="0.381" width="0" layer="21"/>
 <wire x1="3.15" y1="-3.15" x2="3.15" y2="3.15" width="0.2" layer="51"/>
@@ -6456,7 +6332,7 @@ FCI</description>
 <smd name="22" x="1.75" y="-4.2" dx="1.45" dy="0.3" layer="1" rot="R90"/>
 <smd name="23" x="2.25" y="-4.2" dx="1.45" dy="0.3" layer="1" rot="R90"/>
 <smd name="24" x="2.75" y="-4.2" dx="1.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="25" x="4.17" y="-2.75" dx="1.45" dy="0.3" layer="1"/>
+<smd name="25" x="4.2" y="-2.75" dx="1.45" dy="0.3" layer="1"/>
 <smd name="26" x="4.2" y="-2.25" dx="1.45" dy="0.3" layer="1"/>
 <smd name="27" x="4.2" y="-1.75" dx="1.45" dy="0.3" layer="1"/>
 <smd name="28" x="4.2" y="-1.25" dx="1.45" dy="0.3" layer="1"/>
@@ -6737,6 +6613,69 @@ FCI</description>
 <text x="-5.08" y="0" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.016" layer="27" font="vector" ratio="20" rot="R180" align="center">&gt;VALUE</text>
 </package>
+<package name="FIDUCIAL_1MM" urn="urn:adsk.eagle:footprint:6524407/1" library_version="16" library_locally_modified="yes">
+<wire x1="-0.75" y1="0" x2="0" y2="0.75" width="0.5" layer="29" curve="-90"/>
+<wire x1="0" y1="0.75" x2="0.75" y2="0" width="0.5" layer="29" curve="-90"/>
+<wire x1="0.75" y1="0" x2="0" y2="-0.75" width="0.5" layer="29" curve="-90"/>
+<wire x1="0" y1="-0.75" x2="-0.75" y2="0" width="0.5" layer="29" curve="-90"/>
+<wire x1="-0.75" y1="0" x2="0" y2="0.75" width="0.5" layer="41" curve="-90"/>
+<wire x1="0" y1="0.75" x2="0.75" y2="0" width="0.5" layer="41" curve="-90"/>
+<wire x1="0.75" y1="0" x2="0" y2="-0.75" width="0.5" layer="41" curve="-90"/>
+<wire x1="0" y1="-0.75" x2="-0.75" y2="0" width="0.5" layer="41" curve="-90"/>
+<wire x1="-0.75" y1="0" x2="0" y2="0.75" width="0.5" layer="39" curve="-90"/>
+<wire x1="0" y1="0.75" x2="0.75" y2="0" width="0.5" layer="39" curve="-90"/>
+<wire x1="0.75" y1="0" x2="0" y2="-0.75" width="0.5" layer="39" curve="-90"/>
+<wire x1="0" y1="-0.75" x2="-0.75" y2="0" width="0.5" layer="39" curve="-90"/>
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="FIDUCIAL-1X2.5" urn="urn:adsk.eagle:footprint:6524406/1" library_version="16" library_locally_modified="yes">
+<circle x="0" y="0" radius="1.1" width="1.2" layer="29"/>
+<circle x="0" y="0" radius="1.1" width="1.2" layer="39"/>
+<circle x="0" y="0" radius="1.1" width="1.2" layer="41"/>
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<text x="-0.508" y="-1.016" size="0.4064" layer="25">1mm</text>
+</package>
+<package name="PASS-ROUND" urn="urn:adsk.eagle:footprint:6524415/1" library_version="16" library_locally_modified="yes">
+<description>&lt;b&gt;FIDUCIAL MARKER&lt;/b&gt;&lt;p&gt;
+round, layers 1 + 16 + 21 + 39 + 49</description>
+<circle x="0" y="0" radius="1.27" width="0.1524" layer="49"/>
+<circle x="0" y="0" radius="1.27" width="0.1524" layer="49"/>
+<circle x="0" y="0" radius="1.27" width="0.1524" layer="1"/>
+<circle x="0" y="0" radius="1.27" width="0.1524" layer="16"/>
+<circle x="0" y="0" radius="2.54" width="0" layer="29"/>
+<circle x="0" y="0" radius="2.54" width="0" layer="30"/>
+<wire x1="0" y1="0.508" x2="0.508" y2="0" width="1.4224" layer="49" curve="-90" cap="flat"/>
+<wire x1="-0.508" y1="0" x2="0" y2="-0.508" width="1.4224" layer="49" curve="90" cap="flat"/>
+<wire x1="0" y1="0.508" x2="0.508" y2="0" width="1.4224" layer="49" curve="-90" cap="flat"/>
+<wire x1="-0.508" y1="0" x2="0" y2="-0.508" width="1.4224" layer="49" curve="90" cap="flat"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="49"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="49"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.1524" layer="49"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="49"/>
+<wire x1="-2.54" y1="0" x2="-1.524" y2="0" width="0.1524" layer="1"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.524" width="0.1524" layer="1"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.524" width="0.1524" layer="1"/>
+<wire x1="2.54" y1="0" x2="1.524" y2="0" width="0.1524" layer="1"/>
+<wire x1="-2.54" y1="0" x2="-1.524" y2="0" width="0.1524" layer="16"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.524" width="0.1524" layer="16"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.524" width="0.1524" layer="16"/>
+<wire x1="2.54" y1="0" x2="1.524" y2="0" width="0.1524" layer="16"/>
+<wire x1="0.0254" y1="0.5842" x2="0.5842" y2="0.0254" width="1.1176" layer="16" curve="-90" cap="flat"/>
+<wire x1="0.0254" y1="0.5842" x2="0.5842" y2="0.0254" width="1.1176" layer="1" curve="-90" cap="flat"/>
+<wire x1="-0.5842" y1="-0.0254" x2="-0.0254" y2="-0.5842" width="1.1176" layer="16" curve="90" cap="flat"/>
+<wire x1="-0.5842" y1="-0.0254" x2="-0.0254" y2="-0.5842" width="1.1176" layer="1" curve="90" cap="flat"/>
+</package>
+<package name="SILK_QC" urn="urn:adsk.eagle:footprint:6524604/1" library_version="16" library_locally_modified="yes">
+<text x="2.54" y="1.27" size="2.032" layer="21" font="vector" ratio="15" align="center-left">&gt;REV</text>
+<text x="0" y="5.08" size="2.032" layer="21" font="vector" ratio="15" align="center">&gt;PRODUCT</text>
+<text x="-6.35" y="1.397" size="2.032" layer="21" font="vector" ratio="15" align="center-left">Rev.</text>
+<polygon width="0.4064" layer="21">
+<vertex x="-11.43" y="-1.27"/>
+<vertex x="11.43" y="-1.27"/>
+<vertex x="11.43" y="-8.89"/>
+<vertex x="-11.43" y="-8.89"/>
+</polygon>
+</package>
 </packages>
 <packages3d>
 <package3d name="2X09-2MM-SMD" urn="urn:adsk.eagle:package:6524810/3" type="model" library_version="2" library_locally_modified="yes">
@@ -6867,9 +6806,7 @@ FCI</description>
 <packageinstance name="CREE_XLAMP_XTE"/>
 </packageinstances>
 </package3d>
-<package3d name="QFP50P910X910X120-48" urn="urn:adsk.eagle:package:6524788/2" type="model" library_version="4" library_locally_modified="yes">
-<description>48-QFP, 0.50 mm pitch, 9.10 mm span, 7.00 X 7.00 X 1.20 mm body
-&lt;p&gt;48-pin QFP package with 0.50 mm pitch, 9.10 mm lead span1 X 9.10 mm lead span2 with body size 7.00 X 7.00 X 1.20 mm&lt;/p&gt;</description>
+<package3d name="QFP50P910X910X120-48" urn="urn:adsk.eagle:package:6524788/4" type="model" library_version="16" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="TQFP48_7MM"/>
 </packageinstances>
@@ -6918,6 +6855,28 @@ FCI</description>
 <packageinstance name="CL-SB-12B"/>
 </packageinstances>
 </package3d>
+<package3d name="FIDUCIAL_1MM" urn="urn:adsk.eagle:package:6524616/1" type="box" library_version="16" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="FIDUCIAL_1MM"/>
+</packageinstances>
+</package3d>
+<package3d name="FIDUCIAL-1X2.5" urn="urn:adsk.eagle:package:6524617/1" type="box" library_version="16" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="FIDUCIAL-1X2.5"/>
+</packageinstances>
+</package3d>
+<package3d name="PASS-ROUND" urn="urn:adsk.eagle:package:6524608/1" type="box" library_version="16" library_locally_modified="yes">
+<description>&lt;b&gt;FIDUCIAL MARKER&lt;/b&gt;&lt;p&gt;
+round, layers 1 + 16 + 21 + 39 + 49</description>
+<packageinstances>
+<packageinstance name="PASS-ROUND"/>
+</packageinstances>
+</package3d>
+<package3d name="SILK_QC" urn="urn:adsk.eagle:package:6524815/1" type="box" library_version="16" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="SILK_QC"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="PINH2X9" urn="urn:adsk.eagle:symbol:6524374/1" library_version="2" library_locally_modified="yes">
@@ -6962,7 +6921,7 @@ FCI</description>
 <text x="-5.08943125" y="8.9065" size="1.7813" layer="95">&gt;NAME</text>
 <text x="0" y="-10.1746" size="1.78055" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="TS2" urn="urn:adsk.eagle:symbol:6524387/1" library_version="2" library_locally_modified="yes">
+<symbol name="TS2" urn="urn:adsk.eagle:symbol:6524387/1" locally_modified="yes" library_version="16" library_locally_modified="yes">
 <circle x="0" y="-2.54" radius="0.127" width="0.4064" layer="94"/>
 <circle x="0" y="2.54" radius="0.127" width="0.4064" layer="94"/>
 <wire x1="0" y1="1.905" x2="0" y2="2.54" width="0.254" layer="94"/>
@@ -6980,8 +6939,8 @@ FCI</description>
 <pin name="P1" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="2" rot="R90"/>
 <pin name="S" x="0" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="S1" x="2.54" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<text x="-6.35" y="-2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="-3.81" y="3.175" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<text x="-8.89" y="0" size="1.524" layer="95" rot="R90" align="center">&gt;NAME</text>
+<text x="-6.35" y="0" size="1.524" layer="96" rot="R90" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="TC2030-IDC" urn="urn:adsk.eagle:symbol:6524388/1" library_version="2" library_locally_modified="yes">
 <wire x1="-11.43" y1="5.08" x2="11.43" y2="5.08" width="0.4064" layer="94"/>
@@ -7197,6 +7156,20 @@ FCI</description>
 <pin name="1" x="5.08" y="2.54" length="short" direction="pas" rot="R180"/>
 <pin name="3" x="5.08" y="-2.54" length="short" direction="pas" rot="R180"/>
 </symbol>
+<symbol name="FIDUCIAL" urn="urn:adsk.eagle:symbol:6524395/1" library_version="16" library_locally_modified="yes">
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
+</symbol>
+<symbol name="SILK_QC" urn="urn:adsk.eagle:symbol:6524372/1" library_version="16" library_locally_modified="yes">
+<wire x1="0" y1="2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="27.94" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-5.08" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<text x="2.54" y="0" size="2.032" layer="94" align="center-left">&gt;PRODUCT</text>
+<text x="10.16" y="-2.54" size="2.032" layer="94" align="center-left">&gt;REV</text>
+<text x="2.54" y="-2.54" size="2.032" layer="94" align="center-left">Rev.</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="PINHD-2X9" urn="urn:adsk.eagle:component:6524823/2" prefix="JP" uservalue="yes" library_version="2" library_locally_modified="yes">
@@ -7347,9 +7320,8 @@ FCI</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SPST_TACT" urn="urn:adsk.eagle:component:6524837/4" prefix="SW" library_version="15" library_locally_modified="yes">
-<description>SMT 6mm switch, EVQQ2 series
-&lt;p&gt;http://www.ladyada.net/library/eagle&lt;/p&gt;</description>
+<deviceset name="SPST_TACT" urn="urn:adsk.eagle:component:6524837/4" locally_modified="yes" prefix="SW" library_version="16" library_locally_modified="yes">
+<description>Tactile Switch SPST-NO</description>
 <gates>
 <gate name="G$1" symbol="TS2" x="0" y="0"/>
 </gates>
@@ -7396,7 +7368,7 @@ FCI</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-6X6" package="TACT_6X6">
+<device name="-TL3301SPF" package="TACT_6X6">
 <connects>
 <connect gate="G$1" pin="P" pad="A"/>
 <connect gate="G$1" pin="P1" pad="A'"/>
@@ -7407,12 +7379,16 @@ FCI</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:6524808/4"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="E-Switch" constant="no"/>
+<attribute name="MPN" value="TL3301SPF260QG" constant="no"/>
+<attribute name="PN-DK" value="EG1870CT-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TC2030-IDC" urn="urn:adsk.eagle:component:6524836/2" prefix="TC" library_version="2" library_locally_modified="yes">
+<deviceset name="TC2030-IDC" urn="urn:adsk.eagle:component:6524836/2" locally_modified="yes" prefix="TC" library_version="16" library_locally_modified="yes">
 <description>Tag-Connect In Circuit Programming &amp; Debug Cable 6 Pin
 http://www.tag-connect.com</description>
 <gates>
@@ -7456,12 +7432,8 @@ http://www.tag-connect.com</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Cable Adapter 6 Pos "/>
-<attribute name="MF" value="Tag-Connect"/>
-<attribute name="MP" value="TC2030-IDC"/>
-<attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
+<attribute name="MFG" value="Tag-Connect"/>
+<attribute name="MPN" value="TC2030-IDC-NL"/>
 </technology>
 </technologies>
 </device>
@@ -7688,7 +7660,7 @@ http://www.tag-connect.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATSAMD21J" urn="urn:adsk.eagle:component:6524831/2" library_version="5">
+<deviceset name="ATSAMD21J" urn="urn:adsk.eagle:component:6524831/3" locally_modified="yes" library_version="16" library_locally_modified="yes">
 <description>ARM® Cortex®-M0+ SAM D21G Microcontroller IC 32-Bit 48MHz 256KB (256K x 8) FLASH</description>
 <gates>
 <gate name="G$1" symbol="ATSAMD21" x="-2.54" y="7.62"/>
@@ -7798,7 +7770,7 @@ http://www.tag-connect.com</description>
 <connect gate="G$1" pin="VDDIO" pad="17 36"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6524788/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6524788/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -8035,13 +8007,13 @@ http://www.tag-connect.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NMOSSOT23" urn="urn:adsk.eagle:component:6524826/2" prefix="T" uservalue="yes" library_version="5">
+<deviceset name="NMOSSOT23" urn="urn:adsk.eagle:component:6524826/2" locally_modified="yes" prefix="T" uservalue="yes" library_version="16" library_locally_modified="yes">
 <description>&lt;b&gt;MOS FET&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="N_MOSFET" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT-23">
+<device name="-FDV303N" package="SOT-23">
 <connects>
 <connect gate="A" pin="D" pad="1"/>
 <connect gate="A" pin="G" pad="3"/>
@@ -8052,16 +8024,16 @@ http://www.tag-connect.com</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="MFG" value="ON Semiconductor" constant="no"/>
+<attribute name="MPN" value="FDV303N" constant="no"/>
+<attribute name="PN-DK" value="FDV303NCT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SW-CAP_1SWXXX" urn="urn:adsk.eagle:component:6529045/2" library_version="7">
+<deviceset name="SW-CAP_1SXXX" urn="urn:adsk.eagle:component:6529045/2" locally_modified="yes" library_version="16" library_locally_modified="yes">
+<description>CAP PUSHBUTTON SQUARE</description>
 <gates>
 <gate name="G$1" symbol="SW-CAP" x="0" y="0"/>
 </gates>
@@ -8071,7 +8043,11 @@ http://www.tag-connect.com</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:6529044/4"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFG" value="E-Switch" constant="no"/>
+<attribute name="MPN" value="1SWHT" constant="no"/>
+<attribute name="PN-DK" value="EG4365-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -8164,6 +8140,65 @@ http://www.tag-connect.com</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="FIDUCIAL" urn="urn:adsk.eagle:component:6524843/1" locally_modified="yes" prefix="FID" library_version="16" library_locally_modified="yes">
+<description>&lt;b&gt;Fiducial Alignment Points&lt;/b&gt;
+&lt;p&gt;Various fiducial points for machine vision alignment.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="&quot;&quot;" package="FIDUCIAL_1MM">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6524616/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DNP" value="DNP" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1X2.5" package="FIDUCIAL-1X2.5">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6524617/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="ROUND" package="PASS-ROUND">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6524608/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SILK_QC" urn="urn:adsk.eagle:component:6524821/1" locally_modified="yes" library_version="16" library_locally_modified="yes">
+<description>Model/Version Tag Silkscreen</description>
+<gates>
+<gate name="G$1" symbol="SILK_QC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SILK_QC">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6524815/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DNP" value="DNP" constant="no"/>
+<attribute name="PRODUCT" value="" constant="no"/>
+<attribute name="REV" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -8188,18 +8223,42 @@ http://www.tag-connect.com</description>
 </class>
 </classes>
 <parts>
-<part name="C6" library="SinclairScientific" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
-<part name="C7" library="SinclairScientific" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
-<part name="C8" library="SinclairScientific" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
+<part name="C6" library="SinclairScientific" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10u">
+<attribute name="MFG" value="Murata Electronics North America"/>
+<attribute name="MPN" value="GRM21BR61C106KE15K"/>
+<attribute name="PN-DK" value="490-6473-1-ND"/>
+</part>
+<part name="C7" library="SinclairScientific" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1u">
+<attribute name="MFG" value="TDK Corporation"/>
+<attribute name="MPN" value="C1608X7R1C105M080AC"/>
+<attribute name="PN-DK" value="445-5131-1-ND"/>
+</part>
+<part name="C8" library="SinclairScientific" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10u">
+<attribute name="MFG" value="Murata Electronics North America"/>
+<attribute name="MPN" value="GRM21BR61C106KE15K"/>
+<attribute name="PN-DK" value="490-6473-1-ND"/>
+</part>
 <part name="U$29" library="SinclairScientific" deviceset="GND" device=""/>
 <part name="U$30" library="SinclairScientific" deviceset="GND" device=""/>
 <part name="GND1" library="SinclairScientific" deviceset="GND" device=""/>
 <part name="GND12" library="SinclairScientific" deviceset="GND" device=""/>
-<part name="HB" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="LED" device="0805_NOOUTLINE" package3d_urn="urn:adsk.eagle:package:6524624/1" value="RED"/>
-<part name="C14" library="SinclairScientific" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
-<part name="R7" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
+<part name="HB" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="LED" device="0805_NOOUTLINE" package3d_urn="urn:adsk.eagle:package:6524624/1" value="GREEN">
+<attribute name="MFG" value="Lite-On Inc."/>
+<attribute name="MPN" value="LTST-C170GKT"/>
+<attribute name="PN-DK" value="160-1179-1-ND"/>
+</part>
+<part name="C14" library="SinclairScientific" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1u">
+<attribute name="MFG" value="TDK Corporation"/>
+<attribute name="MPN" value="C1608X7R1C105M080AC"/>
+<attribute name="PN-DK" value="445-5131-1-ND"/>
+</part>
+<part name="R7" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k">
+<attribute name="MFG" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-071KL"/>
+<attribute name="PN-DK" value="311-1.00KHRCT-ND"/>
+</part>
 <part name="GND10" library="SinclairScientific" deviceset="GND" device=""/>
-<part name="U$35" library="SinclairScientific" deviceset="FIDUCIAL" device="&quot;&quot;"/>
+<part name="FID3" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="FIDUCIAL" device="&quot;&quot;" package3d_urn="urn:adsk.eagle:package:6524616/1"/>
 <part name="+3V4" library="SinclairScientific" deviceset="+3V3" device=""/>
 <part name="U$1" library="SinclairScientific" deviceset="VBUS" device=""/>
 <part name="U$3" library="SinclairScientific" deviceset="VBUS" device=""/>
@@ -8215,7 +8274,11 @@ http://www.tag-connect.com</description>
 <attribute name="MPN" value="MBR120VLSFT1G"/>
 <attribute name="PN-DK" value="MBR120VLSFT1GOSCT-ND"/>
 </part>
-<part name="J1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="CON_JST_PH_2PIN" device="" package3d_urn="urn:adsk.eagle:package:6524614/2" value="JSTPH"/>
+<part name="J1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="CON_JST_PH_2PIN" device="" package3d_urn="urn:adsk.eagle:package:6524614/2" value="JSTPH">
+<attribute name="MFG" value="JST Sales America Inc."/>
+<attribute name="MPN" value="S2B-PH-SM4-TB(LF)(SN)"/>
+<attribute name="PN-DK" value="455-1749-1-ND"/>
+</part>
 <part name="U$16" library="SinclairScientific" deviceset="VBAT" device=""/>
 <part name="U$22" library="SinclairScientific" deviceset="GND" device=""/>
 <part name="U3" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="MCP73831/2" device="" package3d_urn="urn:adsk.eagle:package:6524638/2" value="MCP73831T-2ACI/OT">
@@ -8223,135 +8286,304 @@ http://www.tag-connect.com</description>
 <attribute name="MPN" value="MCP73831T-2ACI/OT"/>
 <attribute name="PN-DK" value="MCP73831T-2ACI/OTCT-ND"/>
 </part>
-<part name="CHG" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="LED" device="0805_NOOUTLINE" package3d_urn="urn:adsk.eagle:package:6524624/1" value="RED"/>
-<part name="R2" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
-<part name="C3" library="SinclairScientific" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
-<part name="R8" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="3.3k"/>
+<part name="CHG" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="LED" device="0805_NOOUTLINE" package3d_urn="urn:adsk.eagle:package:6524624/1" value="GREEN-RA">
+<attribute name="MFG" value="Lite-On Inc."/>
+<attribute name="MPN" value="LTST-S220KGKT"/>
+<attribute name="PN-DK" value="160-1468-1-ND"/>
+</part>
+<part name="R2" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k">
+<attribute name="MFG" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-071KL"/>
+<attribute name="PN-DK" value="311-1.00KHRCT-ND"/>
+</part>
+<part name="C3" library="SinclairScientific" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10u">
+<attribute name="MFG" value="Murata Electronics North America"/>
+<attribute name="MPN" value="GRM21BR61C106KE15K"/>
+<attribute name="PN-DK" value="490-6473-1-ND"/>
+</part>
+<part name="R8" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="3.3k">
+<attribute name="MFG" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-073K3L"/>
+<attribute name="PN-DK" value="311-3.30KHRCT-ND"/>
+</part>
 <part name="U$36" library="SinclairScientific" deviceset="GND" device=""/>
 <part name="U$38" library="SinclairScientific" deviceset="VBUS" device=""/>
 <part name="U$39" library="SinclairScientific" deviceset="VBAT" device=""/>
-<part name="U4" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="ATSAMD21J" device="_QFP" package3d_urn="urn:adsk.eagle:package:6524788/2" value="ATSAMD21G18"/>
+<part name="U4" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="ATSAMD21J" device="_QFP" package3d_urn="urn:adsk.eagle:package:6524788/4" value="ATSAMD21G18">
+<attribute name="MPN" value="ATSAMD21G18A-AUT"/>
+<attribute name="PN-DK" value="ATSAMD21G18A-AUTCT-ND"/>
+</part>
 <part name="U$5" library="SinclairScientific" deviceset="GND" device=""/>
 <part name="+3V3" library="SinclairScientific" deviceset="+3V3" device=""/>
-<part name="C1" library="SinclairScientific" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
+<part name="C1" library="SinclairScientific" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1u">
+<attribute name="MFG" value="TDK Corporation"/>
+<attribute name="MPN" value="C1608X7R1C105M080AC"/>
+<attribute name="PN-DK" value="445-5131-1-ND"/>
+</part>
 <part name="U$6" library="SinclairScientific" deviceset="GND" device=""/>
-<part name="C2" library="SinclairScientific" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22pF"/>
-<part name="C4" library="SinclairScientific" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22pF"/>
+<part name="C2" library="SinclairScientific" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22p">
+<attribute name="MFG" value="Murata Electronics North America"/>
+<attribute name="MPN" value="GQM1875C2E220JB12D"/>
+<attribute name="PN-DK" value="490-16699-1-ND"/>
+</part>
+<part name="C4" library="SinclairScientific" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22p">
+<attribute name="MFG" value="Murata Electronics North America"/>
+<attribute name="MPN" value="GQM1875C2E220JB12D"/>
+<attribute name="PN-DK" value="490-16699-1-ND"/>
+</part>
 <part name="U$8" library="SinclairScientific" deviceset="GND" device=""/>
 <part name="U$10" library="SinclairScientific" deviceset="GND" device=""/>
-<part name="X2" library="SinclairScientific" deviceset="XTAL" device="-3.2X1.5" value="32.768"/>
-<part name="C5" library="SinclairScientific" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
+<part name="X2" library="SinclairScientific" deviceset="XTAL" device="-3.2X1.5" value="32.768">
+<attribute name="MFG" value="ECS Inc."/>
+<attribute name="MPN" value="ECS-.327-12.5-34B-TR"/>
+<attribute name="PN-DK" value="XC1617CT-ND"/>
+</part>
+<part name="C5" library="SinclairScientific" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<attribute name="MFG" value="AVX Corporation"/>
+<attribute name="MPN" value="06035C104K4Z4A"/>
+<attribute name="PN-DK" value="478-10679-1-ND"/>
+</part>
 <part name="U$11" library="SinclairScientific" deviceset="GND" device=""/>
-<part name="U$7" library="SinclairScientific" deviceset="FIDUCIAL" device="&quot;&quot;"/>
-<part name="C9" library="SinclairScientific" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
-<part name="TC1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="TC2030-IDC" device="-NL" package3d_urn="urn:adsk.eagle:package:6524642/2"/>
+<part name="FID1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="FIDUCIAL" device="&quot;&quot;" package3d_urn="urn:adsk.eagle:package:6524616/1"/>
+<part name="C9" library="SinclairScientific" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<attribute name="MFG" value="AVX Corporation"/>
+<attribute name="MPN" value="06035C104K4Z4A"/>
+<attribute name="PN-DK" value="478-10679-1-ND"/>
+</part>
+<part name="TC1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="TC2030-IDC" device="-NL" package3d_urn="urn:adsk.eagle:package:6524642/2">
+<attribute name="PN-DK" value="TC2030-IDC-NL"/>
+</part>
 <part name="+3V1" library="SinclairScientific" deviceset="+3V3" device=""/>
-<part name="C10" library="SinclairScientific" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
-<part name="C11" library="SinclairScientific" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
-<part name="L1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="LED" device="0805_NOOUTLINE" package3d_urn="urn:adsk.eagle:package:6524624/1" value="RED"/>
-<part name="R1" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
-<part name="F1" library="SinclairScientific" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="500mA"/>
-<part name="C12" library="SinclairScientific" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
-<part name="C13" library="SinclairScientific" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
+<part name="C10" library="SinclairScientific" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<attribute name="MFG" value="AVX Corporation"/>
+<attribute name="MPN" value="06035C104K4Z4A"/>
+<attribute name="PN-DK" value="478-10679-1-ND"/>
+</part>
+<part name="C11" library="SinclairScientific" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<attribute name="MFG" value="AVX Corporation"/>
+<attribute name="MPN" value="06035C104K4Z4A"/>
+<attribute name="PN-DK" value="478-10679-1-ND"/>
+</part>
+<part name="L1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="LED" device="0805_NOOUTLINE" package3d_urn="urn:adsk.eagle:package:6524624/1" value="GREEN">
+<attribute name="MFG" value="Lite-On Inc."/>
+<attribute name="MPN" value="LTST-C170GKT"/>
+<attribute name="PN-DK" value="160-1179-1-ND"/>
+</part>
+<part name="R1" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k">
+<attribute name="MFG" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-071KL"/>
+<attribute name="PN-DK" value="311-1.00KHRCT-ND"/>
+</part>
+<part name="F1" library="SinclairScientific" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="500mA">
+<attribute name="MFG" value="Bel Fuse Inc."/>
+<attribute name="MPN" value="0ZCK0050FF2E"/>
+<attribute name="PN-DK" value="507-1813-1-ND"/>
+</part>
+<part name="C12" library="SinclairScientific" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1u">
+<attribute name="MFG" value="TDK Corporation"/>
+<attribute name="MPN" value="C1608X7R1C105M080AC"/>
+<attribute name="PN-DK" value="445-5131-1-ND"/>
+</part>
+<part name="C13" library="SinclairScientific" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10u">
+<attribute name="MFG" value="Murata Electronics North America"/>
+<attribute name="MPN" value="GRM21BR61C106KE15K"/>
+<attribute name="PN-DK" value="490-6473-1-ND"/>
+</part>
 <part name="+3V2" library="SinclairScientific" deviceset="+3V3" device=""/>
 <part name="U$4" library="SinclairScientific" deviceset="GND" device=""/>
 <part name="FRAME1" library="SinclairScientific" deviceset="LETTER_L" device="">
 <attribute name="SECTION" value="Power &amp; MCU"/>
 </part>
-<part name="U$2" library="SinclairScientific" deviceset="FIDUCIAL" device="&quot;&quot;"/>
-<part name="SW-1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
-<part name="SW-5" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
-<part name="SW-6" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
-<part name="SW-7" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
-<part name="SW-8" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
-<part name="SW-9" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
-<part name="SW-2" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
-<part name="SW-3" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
-<part name="SW-4" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
-<part name="SW-C" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
-<part name="SW-DIV" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
-<part name="SW-MULT" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
-<part name="SW-UP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
-<part name="SW-E" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
-<part name="SW-0" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
-<part name="SW-DWN" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
-<part name="SW-PLUS" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
-<part name="SW-MINUS" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-6X6"/>
-<part name="R3" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="3.3k"/>
-<part name="R4" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="3.3k"/>
+<part name="FID2" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="FIDUCIAL" device="&quot;&quot;" package3d_urn="urn:adsk.eagle:package:6524616/1"/>
+<part name="SW-1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-TL3301SPF" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF">
+<attribute name="MFG" value="E-Switch"/>
+<attribute name="MPN" value="TL3301SPF260QG"/>
+<attribute name="PN-DK" value="EG1870CT-ND"/>
+</part>
+<part name="SW-5" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-TL3301SPF" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF"/>
+<part name="SW-6" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-TL3301SPF" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF"/>
+<part name="SW-7" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-TL3301SPF" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF"/>
+<part name="SW-8" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-TL3301SPF" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF"/>
+<part name="SW-9" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-TL3301SPF" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF"/>
+<part name="SW-2" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-TL3301SPF" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF"/>
+<part name="SW-3" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-TL3301SPF" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF"/>
+<part name="SW-4" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-TL3301SPF" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF"/>
+<part name="SW-C" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-TL3301SPF" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF"/>
+<part name="SW-DIV" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-TL3301SPF" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF"/>
+<part name="SW-MULT" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-TL3301SPF" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF"/>
+<part name="SW-UP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-TL3301SPF" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF"/>
+<part name="SW-E" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-TL3301SPF" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF"/>
+<part name="SW-0" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-TL3301SPF" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF"/>
+<part name="SW-DWN" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-TL3301SPF" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF"/>
+<part name="SW-PLUS" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-TL3301SPF" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF"/>
+<part name="SW-MINUS" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPST_TACT" device="-TL3301SPF" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF"/>
+<part name="R3" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="3.3k">
+<attribute name="MFG" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-073K3L"/>
+<attribute name="PN-DK" value="311-3.30KHRCT-ND"/>
+</part>
+<part name="R4" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="3.3k">
+<attribute name="MFG" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-073K3L"/>
+<attribute name="PN-DK" value="311-3.30KHRCT-ND"/>
+</part>
 <part name="U$9" library="SinclairScientific" deviceset="GND" device=""/>
-<part name="T1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
-<part name="T2" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
-<part name="T3" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
-<part name="R5" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150"/>
-<part name="R6" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150"/>
-<part name="R9" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150"/>
+<part name="T1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="-FDV303N" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
+<part name="T2" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="-FDV303N" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
+<part name="T3" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="-FDV303N" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
+<part name="R5" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150">
+<attribute name="MFG" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-07150RL"/>
+<attribute name="PN-DK" value="311-150HRCT-ND"/>
+</part>
+<part name="R6" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150">
+<attribute name="MFG" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-07150RL"/>
+<attribute name="PN-DK" value="311-150HRCT-ND"/>
+</part>
+<part name="R9" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150">
+<attribute name="MFG" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-07150RL"/>
+<attribute name="PN-DK" value="311-150HRCT-ND"/>
+</part>
 <part name="U$12" library="SinclairScientific" deviceset="GND" device=""/>
-<part name="T4" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
-<part name="R10" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150"/>
-<part name="T5" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
-<part name="R11" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150"/>
-<part name="T6" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
-<part name="R12" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150"/>
-<part name="T7" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
-<part name="R13" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150"/>
-<part name="T8" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
-<part name="R14" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150"/>
-<part name="T9" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
-<part name="R15" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
+<part name="T4" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="-FDV303N" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
+<part name="R10" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150">
+<attribute name="MFG" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-07150RL"/>
+<attribute name="PN-DK" value="311-150HRCT-ND"/>
+</part>
+<part name="T5" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="-FDV303N" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
+<part name="R11" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150">
+<attribute name="MFG" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-07150RL"/>
+<attribute name="PN-DK" value="311-150HRCT-ND"/>
+</part>
+<part name="T6" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="-FDV303N" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
+<part name="R12" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150">
+<attribute name="MFG" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-07150RL"/>
+<attribute name="PN-DK" value="311-150HRCT-ND"/>
+</part>
+<part name="T7" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="-FDV303N" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
+<part name="R13" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150">
+<attribute name="MFG" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-07150RL"/>
+<attribute name="PN-DK" value="311-150HRCT-ND"/>
+</part>
+<part name="T8" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="-FDV303N" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
+<part name="R14" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150">
+<attribute name="MFG" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-07150RL"/>
+<attribute name="PN-DK" value="311-150HRCT-ND"/>
+</part>
+<part name="T9" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="-FDV303N" package3d_urn="urn:adsk.eagle:package:6524636/3">
+<attribute name="MFG" value="ON Semiconductor"/>
+<attribute name="MPN" value="FDV303N"/>
+<attribute name="PN-DK" value="FDV303NCT-ND"/>
+</part>
+<part name="R15" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k">
+<attribute name="MFG" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-071KL"/>
+<attribute name="PN-DK" value="311-1.00KHRCT-ND"/>
+</part>
 <part name="U$13" library="SinclairScientific" deviceset="GND" device=""/>
 <part name="+3V5" library="SinclairScientific" deviceset="+3V3" device=""/>
-<part name="T10" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
-<part name="R16" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
-<part name="T11" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
-<part name="R17" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
-<part name="T12" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
-<part name="R18" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
-<part name="T13" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
-<part name="R19" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
-<part name="T14" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
-<part name="R20" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
-<part name="T15" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
-<part name="R21" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
-<part name="T16" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
-<part name="R22" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
-<part name="T17" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
-<part name="R23" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
-<part name="U5" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="W25Q128JV" device="WSON_6X5" package3d_urn="urn:adsk.eagle:package:6540153/1" value="W25Q128JVWSON_6X5"/>
+<part name="T10" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="-FDV303N" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
+<part name="R16" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k">
+<attribute name="MFG" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-071KL"/>
+<attribute name="PN-DK" value="311-1.00KHRCT-ND"/>
+</part>
+<part name="T11" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="-FDV303N" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
+<part name="R17" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k">
+<attribute name="MFG" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-071KL"/>
+<attribute name="PN-DK" value="311-1.00KHRCT-ND"/>
+</part>
+<part name="T12" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="-FDV303N" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
+<part name="R18" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k">
+<attribute name="MFG" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-071KL"/>
+<attribute name="PN-DK" value="311-1.00KHRCT-ND"/>
+</part>
+<part name="T13" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="-FDV303N" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
+<part name="R19" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k">
+<attribute name="MFG" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-071KL"/>
+<attribute name="PN-DK" value="311-1.00KHRCT-ND"/>
+</part>
+<part name="T14" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="-FDV303N" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
+<part name="R20" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k">
+<attribute name="MFG" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-071KL"/>
+<attribute name="PN-DK" value="311-1.00KHRCT-ND"/>
+</part>
+<part name="T15" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="-FDV303N" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
+<part name="R21" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k">
+<attribute name="MFG" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-071KL"/>
+<attribute name="PN-DK" value="311-1.00KHRCT-ND"/>
+</part>
+<part name="T16" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="-FDV303N" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
+<part name="R22" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k">
+<attribute name="MFG" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-071KL"/>
+<attribute name="PN-DK" value="311-1.00KHRCT-ND"/>
+</part>
+<part name="T17" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="NMOSSOT23" device="-FDV303N" package3d_urn="urn:adsk.eagle:package:6524636/3"/>
+<part name="R23" library="SinclairScientific" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k">
+<attribute name="MFG" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-071KL"/>
+<attribute name="PN-DK" value="311-1.00KHRCT-ND"/>
+</part>
+<part name="U5" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="W25Q128JV" device="WSON_6X5" package3d_urn="urn:adsk.eagle:package:6540153/1" value="W25Q128JVWSON_6X5">
+<attribute name="MFG" value="Winbond Electronics"/>
+<attribute name="MPN" value="W25Q128JVPIM"/>
+<attribute name="PN-DK" value="W25Q128JVPIMCT-ND"/>
+</part>
 <part name="FRAME2" library="SinclairScientific" deviceset="LETTER_L" device="">
 <attribute name="SECTION" value="Buttons &amp; Displays"/>
 </part>
-<part name="C15" library="SinclairScientific" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
+<part name="C15" library="SinclairScientific" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n">
+<attribute name="MFG" value="AVX Corporation"/>
+<attribute name="MPN" value="06035C104K4Z4A"/>
+<attribute name="PN-DK" value="478-10679-1-ND"/>
+</part>
 <part name="U$15" library="SinclairScientific" deviceset="GND" device=""/>
 <part name="+3V6" library="SinclairScientific" deviceset="+3V3" device=""/>
-<part name="J2" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="PINHD-2X9" device="-2MM-SMD" package3d_urn="urn:adsk.eagle:package:6524810/3">
+<part name="J2" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="PINHD-2X9" device="-2MM-SMD" package3d_urn="urn:adsk.eagle:package:6524810/3" value="87759-1850">
 <attribute name="MFG" value="Molex"/>
 <attribute name="MPN" value="87759-1850"/>
 <attribute name="PN-DK" value="WM18656-ND "/>
 </part>
-<part name="U$18" library="SinclairScientific" deviceset="SILK_QC" device="">
-<attribute name="PRODUCT" value="SinclairScientific"/>
+<part name="SILK-QC" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SILK_QC" device="" package3d_urn="urn:adsk.eagle:package:6524815/1">
+<attribute name="PRODUCT" value="Sinclair Scientific"/>
 <attribute name="REV" value="1C"/>
 </part>
-<part name="U$19" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SWXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
-<part name="U$20" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SWXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
-<part name="U$28" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SWXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
-<part name="U$31" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SWXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
-<part name="U$32" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SWXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
-<part name="U$33" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SWXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
-<part name="U$34" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SWXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
-<part name="U$37" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SWXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
-<part name="U$40" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SWXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
-<part name="U$41" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SWXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
-<part name="U$42" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SWXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
-<part name="U$43" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SWXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
-<part name="U$44" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SWXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
-<part name="U$45" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SWXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
-<part name="U$46" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SWXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
-<part name="U$47" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SWXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
-<part name="U$48" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SWXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
-<part name="U$49" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SWXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
-<part name="S1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPDT_SLIDE" device="-CB-SB-12B" package3d_urn="urn:adsk.eagle:package:6619163/3"/>
+<part name="SW-1_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
+<part name="SW-7_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
+<part name="SW-UP_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
+<part name="SW-MULT_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
+<part name="SW-2_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
+<part name="SW-8_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
+<part name="SW-DWN_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
+<part name="SW-DIV_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
+<part name="SW-3_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
+<part name="SW-9_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
+<part name="SW-PLUS_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
+<part name="SW-MINUS_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
+<part name="SW-4_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
+<part name="SW-0_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
+<part name="SW-E_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
+<part name="SW-6_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
+<part name="SW-5_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
+<part name="SW-C_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SW-CAP_1SXXX" device="" package3d_urn="urn:adsk.eagle:package:6529044/4"/>
+<part name="S1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" deviceset="SPDT_SLIDE" device="-CB-SB-12B" package3d_urn="urn:adsk.eagle:package:6619163/3">
+<attribute name="MFG" value="Nidec Copal Electronics"/>
+<attribute name="MPN" value="CL-SB-12B-01T"/>
+<attribute name="PN-DK" value="563-1318-1-ND"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -8401,6 +8633,9 @@ http://www.tag-connect.com</description>
 <instance part="HB" gate="G$1" x="119.38" y="27.94" rot="R270">
 <attribute name="NAME" x="123.825" y="29.21" size="1.27" layer="95" rot="R270" align="center"/>
 <attribute name="VALUE" x="116.586" y="29.21" size="1.27" layer="96" rot="R270" align="center"/>
+<attribute name="MFG" x="119.38" y="27.94" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="119.38" y="27.94" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="PN-DK" x="119.38" y="27.94" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="C14" gate="G$1" x="119.38" y="73.66">
 <attribute name="NAME" x="124.46" y="73.66" size="1.778" layer="95" align="center"/>
@@ -8413,7 +8648,7 @@ http://www.tag-connect.com</description>
 <instance part="GND10" gate="G$1" x="119.38" y="20.32" rot="MR0">
 <attribute name="VALUE" x="119.38" y="17.78" size="1.524" layer="96" rot="MR0" align="center"/>
 </instance>
-<instance part="U$35" gate="G$1" x="213.36" y="129.54"/>
+<instance part="FID3" gate="G$1" x="213.36" y="129.54"/>
 <instance part="+3V4" gate="G$1" x="91.44" y="172.72" rot="MR0">
 <attribute name="VALUE" x="93.98" y="167.64" size="1.778" layer="96" rot="MR90"/>
 </instance>
@@ -8447,6 +8682,9 @@ http://www.tag-connect.com</description>
 <instance part="J1" gate="G$1" x="223.52" y="170.18" rot="R180">
 <attribute name="NAME" x="222.25" y="173.355" size="1.778" layer="95"/>
 <attribute name="VALUE" x="222.25" y="162.56" size="1.778" layer="96"/>
+<attribute name="MFG" x="223.52" y="170.18" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="223.52" y="170.18" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="PN-DK" x="223.52" y="170.18" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="U$16" gate="G$1" x="233.68" y="175.26">
 <attribute name="VALUE" x="229.616" y="176.276" size="1.524" layer="96"/>
@@ -8464,6 +8702,9 @@ http://www.tag-connect.com</description>
 <instance part="CHG" gate="G$1" x="147.32" y="162.56">
 <attribute name="NAME" x="146.05" y="167.005" size="1.524" layer="95" align="center"/>
 <attribute name="VALUE" x="146.05" y="159.766" size="1.524" layer="96" align="center"/>
+<attribute name="MFG" x="147.32" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="147.32" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="PN-DK" x="147.32" y="162.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R2" gate="G$1" x="154.94" y="162.56">
 <attribute name="NAME" x="154.94" y="167.64" size="1.778" layer="95" align="center"/>
@@ -8520,6 +8761,9 @@ http://www.tag-connect.com</description>
 <instance part="X2" gate="G$1" x="121.92" y="91.44">
 <attribute name="NAME" x="119.38" y="95.25" size="1.27" layer="95" font="vector"/>
 <attribute name="VALUE" x="118.11" y="86.36" size="1.27" layer="96" font="vector"/>
+<attribute name="MFG" x="121.92" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="121.92" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="PN-DK" x="121.92" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C5" gate="G$1" x="20.32" y="116.84">
 <attribute name="NAME" x="25.4" y="116.84" size="1.778" layer="95" align="center"/>
@@ -8528,7 +8772,7 @@ http://www.tag-connect.com</description>
 <instance part="U$11" gate="G$1" x="20.32" y="106.68">
 <attribute name="VALUE" x="20.32" y="104.14" size="1.524" layer="96" align="center"/>
 </instance>
-<instance part="U$7" gate="G$1" x="208.28" y="129.54"/>
+<instance part="FID1" gate="G$1" x="208.28" y="129.54"/>
 <instance part="C9" gate="G$1" x="30.48" y="116.84">
 <attribute name="NAME" x="35.56" y="116.84" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="35.56" y="114.3" size="1.778" layer="96" align="center"/>
@@ -8536,6 +8780,7 @@ http://www.tag-connect.com</description>
 <instance part="TC1" gate="A" x="99.06" y="129.54">
 <attribute name="VALUE" x="95.232090625" y="121.8842" size="1.78635" layer="96"/>
 <attribute name="NAME" x="95.243559375" y="135.39188125" size="1.781" layer="95"/>
+<attribute name="PN-DK" x="99.06" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V1" gate="G$1" x="20.32" y="127">
 <attribute name="VALUE" x="17.78" y="121.92" size="1.778" layer="96" rot="R90"/>
@@ -8551,6 +8796,9 @@ http://www.tag-connect.com</description>
 <instance part="L1" gate="G$1" x="109.22" y="160.02" rot="R270">
 <attribute name="NAME" x="113.665" y="161.29" size="1.524" layer="95" rot="R270" align="center"/>
 <attribute name="VALUE" x="106.426" y="161.29" size="1.524" layer="96" rot="R270" align="center"/>
+<attribute name="MFG" x="109.22" y="160.02" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="109.22" y="160.02" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="PN-DK" x="109.22" y="160.02" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R1" gate="G$1" x="109.22" y="172.72" rot="R270">
 <attribute name="NAME" x="114.3" y="172.72" size="1.778" layer="95" rot="R270" align="center"/>
@@ -8559,6 +8807,7 @@ http://www.tag-connect.com</description>
 <instance part="F1" gate="G$1" x="185.42" y="96.52">
 <attribute name="NAME" x="185.42" y="101.6" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="185.42" y="99.06" size="1.778" layer="96" align="center"/>
+<attribute name="MFG" x="185.42" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C12" gate="G$1" x="205.74" y="91.44">
 <attribute name="NAME" x="210.82" y="91.44" size="1.778" layer="95" align="center"/>
@@ -8588,10 +8837,13 @@ http://www.tag-connect.com</description>
 <attribute name="APPROVER" x="161.29" y="6.35" size="2.54" layer="94" align="center"/>
 <attribute name="SECTION" x="199.39" y="11.43" size="2.54" layer="94" align="center-left"/>
 </instance>
-<instance part="U$2" gate="G$1" x="210.82" y="129.54"/>
+<instance part="FID2" gate="G$1" x="210.82" y="129.54"/>
 <instance part="U5" gate="G$1" x="195.58" y="50.8">
 <attribute name="NAME" x="182.88" y="58.42" size="1.524" layer="95" align="center-left"/>
 <attribute name="VALUE" x="182.88" y="40.64" size="1.524" layer="96" align="center-left"/>
+<attribute name="MFG" x="195.58" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="195.58" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="PN-DK" x="195.58" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C15" gate="G$1" x="165.1" y="48.26">
 <attribute name="NAME" x="170.18" y="50.8" size="1.778" layer="95" align="center"/>
@@ -8603,13 +8855,16 @@ http://www.tag-connect.com</description>
 <instance part="+3V6" gate="G$1" x="165.1" y="58.42">
 <attribute name="VALUE" x="162.56" y="53.34" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$18" gate="G$1" x="147.32" y="132.08">
+<instance part="SILK-QC" gate="G$1" x="147.32" y="132.08">
 <attribute name="PRODUCT" x="149.86" y="132.08" size="2.032" layer="94" align="center-left"/>
 <attribute name="REV" x="157.48" y="129.54" size="2.032" layer="94" align="center-left"/>
 </instance>
 <instance part="S1" gate="G$1" x="25.4" y="165.1">
 <attribute name="NAME" x="27.940940625" y="170.18188125" size="1.27046875" layer="95"/>
 <attribute name="VALUE" x="27.94053125" y="160.01893125" size="1.27026875" layer="96"/>
+<attribute name="MFG" x="25.4" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="25.4" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="PN-DK" x="25.4" y="165.1" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -9450,76 +9705,79 @@ http://www.tag-connect.com</description>
 <attribute name="VALUE" x="139.7" y="96.52" size="1.778" layer="96" rot="R270" align="center"/>
 </instance>
 <instance part="SW-1" gate="G$1" x="35.56" y="170.18" rot="R270">
-<attribute name="NAME" x="33.02" y="176.53" size="1.778" layer="95"/>
-<attribute name="VALUE" x="38.735" y="173.99" size="1.778" layer="96"/>
+<attribute name="MFG" x="35.56" y="170.18" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="35.56" y="170.18" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="PN-DK" x="35.56" y="170.18" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="NAME" x="35.56" y="179.07" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="35.56" y="176.53" size="1.524" layer="96" align="center"/>
 </instance>
 <instance part="SW-5" gate="G$1" x="55.88" y="170.18" rot="R270">
-<attribute name="NAME" x="53.34" y="176.53" size="1.778" layer="95"/>
-<attribute name="VALUE" x="59.055" y="173.99" size="1.778" layer="96"/>
+<attribute name="NAME" x="55.88" y="179.07" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="55.88" y="176.53" size="1.524" layer="96" align="center"/>
 </instance>
 <instance part="SW-6" gate="G$1" x="76.2" y="170.18" rot="R270">
-<attribute name="NAME" x="73.66" y="176.53" size="1.778" layer="95"/>
-<attribute name="VALUE" x="79.375" y="173.99" size="1.778" layer="96"/>
+<attribute name="NAME" x="76.2" y="179.07" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="76.2" y="176.53" size="1.524" layer="96" align="center"/>
 </instance>
 <instance part="SW-7" gate="G$1" x="96.52" y="170.18" rot="R270">
-<attribute name="NAME" x="93.98" y="176.53" size="1.778" layer="95"/>
-<attribute name="VALUE" x="99.695" y="173.99" size="1.778" layer="96"/>
+<attribute name="NAME" x="96.52" y="179.07" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="96.52" y="176.53" size="1.524" layer="96" align="center"/>
 </instance>
 <instance part="SW-8" gate="G$1" x="116.84" y="170.18" rot="R270">
-<attribute name="NAME" x="114.3" y="176.53" size="1.778" layer="95"/>
-<attribute name="VALUE" x="120.015" y="173.99" size="1.778" layer="96"/>
+<attribute name="NAME" x="116.84" y="179.07" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="116.84" y="176.53" size="1.524" layer="96" align="center"/>
 </instance>
 <instance part="SW-9" gate="G$1" x="137.16" y="170.18" rot="R270">
-<attribute name="NAME" x="134.62" y="176.53" size="1.778" layer="95"/>
-<attribute name="VALUE" x="140.335" y="173.99" size="1.778" layer="96"/>
+<attribute name="NAME" x="137.16" y="179.07" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="137.16" y="176.53" size="1.524" layer="96" align="center"/>
 </instance>
 <instance part="SW-2" gate="G$1" x="157.48" y="170.18" rot="R270">
-<attribute name="NAME" x="154.94" y="176.53" size="1.778" layer="95"/>
-<attribute name="VALUE" x="160.655" y="173.99" size="1.778" layer="96"/>
+<attribute name="NAME" x="157.48" y="179.07" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="157.48" y="176.53" size="1.524" layer="96" align="center"/>
 </instance>
 <instance part="SW-3" gate="G$1" x="177.8" y="170.18" rot="R270">
-<attribute name="NAME" x="175.26" y="176.53" size="1.778" layer="95"/>
-<attribute name="VALUE" x="180.975" y="173.99" size="1.778" layer="96"/>
+<attribute name="NAME" x="177.8" y="179.07" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="177.8" y="176.53" size="1.524" layer="96" align="center"/>
 </instance>
 <instance part="SW-4" gate="G$1" x="198.12" y="170.18" rot="R270">
-<attribute name="NAME" x="195.58" y="176.53" size="1.778" layer="95"/>
-<attribute name="VALUE" x="201.295" y="173.99" size="1.778" layer="96"/>
+<attribute name="NAME" x="198.12" y="179.07" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="198.12" y="176.53" size="1.524" layer="96" align="center"/>
 </instance>
 <instance part="SW-C" gate="G$1" x="35.56" y="154.94" rot="R270">
-<attribute name="NAME" x="33.02" y="161.29" size="1.778" layer="95"/>
-<attribute name="VALUE" x="38.735" y="158.75" size="1.778" layer="96"/>
+<attribute name="NAME" x="35.56" y="163.83" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="35.56" y="161.29" size="1.524" layer="96" align="center"/>
 </instance>
 <instance part="SW-DIV" gate="G$1" x="55.88" y="154.94" rot="R270">
-<attribute name="NAME" x="53.34" y="161.29" size="1.778" layer="95"/>
-<attribute name="VALUE" x="59.055" y="158.75" size="1.778" layer="96"/>
+<attribute name="NAME" x="55.88" y="163.83" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="55.88" y="161.29" size="1.524" layer="96" align="center"/>
 </instance>
 <instance part="SW-MULT" gate="G$1" x="76.2" y="154.94" rot="R270">
-<attribute name="NAME" x="73.66" y="161.29" size="1.778" layer="95"/>
-<attribute name="VALUE" x="79.375" y="158.75" size="1.778" layer="96"/>
+<attribute name="NAME" x="76.2" y="163.83" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="76.2" y="161.29" size="1.524" layer="96" align="center"/>
 </instance>
 <instance part="SW-UP" gate="G$1" x="96.52" y="154.94" rot="R270">
-<attribute name="NAME" x="93.98" y="161.29" size="1.778" layer="95"/>
-<attribute name="VALUE" x="99.695" y="158.75" size="1.778" layer="96"/>
+<attribute name="NAME" x="96.52" y="163.83" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="96.52" y="161.29" size="1.524" layer="96" align="center"/>
 </instance>
 <instance part="SW-E" gate="G$1" x="116.84" y="154.94" rot="R270">
-<attribute name="NAME" x="114.3" y="161.29" size="1.778" layer="95"/>
-<attribute name="VALUE" x="120.015" y="158.75" size="1.778" layer="96"/>
+<attribute name="NAME" x="116.84" y="163.83" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="116.84" y="161.29" size="1.524" layer="96" align="center"/>
 </instance>
 <instance part="SW-0" gate="G$1" x="137.16" y="154.94" rot="R270">
-<attribute name="NAME" x="134.62" y="161.29" size="1.778" layer="95"/>
-<attribute name="VALUE" x="140.335" y="158.75" size="1.778" layer="96"/>
+<attribute name="NAME" x="137.16" y="163.83" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="137.16" y="161.29" size="1.524" layer="96" align="center"/>
 </instance>
 <instance part="SW-DWN" gate="G$1" x="157.48" y="154.94" rot="R270">
-<attribute name="NAME" x="154.94" y="161.29" size="1.778" layer="95"/>
-<attribute name="VALUE" x="160.655" y="158.75" size="1.778" layer="96"/>
+<attribute name="NAME" x="157.48" y="163.83" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="157.48" y="161.29" size="1.524" layer="96" align="center"/>
 </instance>
 <instance part="SW-PLUS" gate="G$1" x="177.8" y="154.94" rot="R270">
-<attribute name="NAME" x="175.26" y="161.29" size="1.778" layer="95"/>
-<attribute name="VALUE" x="180.975" y="158.75" size="1.778" layer="96"/>
+<attribute name="NAME" x="177.8" y="163.83" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="177.8" y="161.29" size="1.524" layer="96" align="center"/>
 </instance>
 <instance part="SW-MINUS" gate="G$1" x="198.12" y="154.94" rot="R270">
-<attribute name="NAME" x="195.58" y="161.29" size="1.778" layer="95"/>
-<attribute name="VALUE" x="201.295" y="158.75" size="1.778" layer="96"/>
+<attribute name="NAME" x="198.12" y="163.83" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="198.12" y="161.29" size="1.524" layer="96" align="center"/>
 </instance>
 <instance part="R3" gate="G$1" x="236.22" y="160.02" rot="R270">
 <attribute name="NAME" x="241.3" y="160.02" size="1.778" layer="95" rot="R270" align="center"/>
@@ -9539,77 +9797,77 @@ http://www.tag-connect.com</description>
 <attribute name="MPN" x="190.5" y="43.18" size="1.524" layer="96" display="off"/>
 <attribute name="PN-DK" x="190.5" y="43.18" size="1.524" layer="96" display="off"/>
 </instance>
-<instance part="U$19" gate="G$1" x="160.02" y="121.92">
-<attribute name="NAME" x="160.02" y="129.54" size="1.524" layer="95" align="center"/>
-<attribute name="VALUE" x="160.02" y="116.84" size="1.524" layer="96" align="center"/>
+<instance part="SW-1_CAP" gate="G$1" x="162.56" y="121.92">
+<attribute name="NAME" x="162.56" y="129.54" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="162.56" y="116.84" size="1.524" layer="96" align="center"/>
 </instance>
-<instance part="U$20" gate="G$1" x="160.02" y="106.68">
-<attribute name="NAME" x="160.02" y="114.3" size="1.524" layer="95" align="center"/>
-<attribute name="VALUE" x="160.02" y="101.6" size="1.524" layer="96" align="center"/>
+<instance part="SW-7_CAP" gate="G$1" x="162.56" y="104.14">
+<attribute name="NAME" x="162.56" y="111.76" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="162.56" y="99.06" size="1.524" layer="96" align="center"/>
 </instance>
-<instance part="U$28" gate="G$1" x="160.02" y="91.44">
-<attribute name="NAME" x="160.02" y="99.06" size="1.524" layer="95" align="center"/>
-<attribute name="VALUE" x="160.02" y="86.36" size="1.524" layer="96" align="center"/>
+<instance part="SW-UP_CAP" gate="G$1" x="162.56" y="86.36">
+<attribute name="NAME" x="162.56" y="93.98" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="162.56" y="81.28" size="1.524" layer="96" align="center"/>
 </instance>
-<instance part="U$31" gate="G$1" x="238.76" y="91.44">
-<attribute name="NAME" x="238.76" y="99.06" size="1.524" layer="95" align="center"/>
-<attribute name="VALUE" x="238.76" y="86.36" size="1.524" layer="96" align="center"/>
+<instance part="SW-MULT_CAP" gate="G$1" x="238.76" y="86.36">
+<attribute name="NAME" x="238.76" y="93.98" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="238.76" y="81.28" size="1.524" layer="96" align="center"/>
 </instance>
-<instance part="U$32" gate="G$1" x="175.26" y="121.92">
-<attribute name="NAME" x="175.26" y="129.54" size="1.524" layer="95" align="center"/>
-<attribute name="VALUE" x="175.26" y="116.84" size="1.524" layer="96" align="center"/>
+<instance part="SW-2_CAP" gate="G$1" x="177.8" y="121.92">
+<attribute name="NAME" x="177.8" y="129.54" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="177.8" y="116.84" size="1.524" layer="96" align="center"/>
 </instance>
-<instance part="U$33" gate="G$1" x="175.26" y="106.68">
-<attribute name="NAME" x="175.26" y="114.3" size="1.524" layer="95" align="center"/>
-<attribute name="VALUE" x="175.26" y="101.6" size="1.524" layer="96" align="center"/>
+<instance part="SW-8_CAP" gate="G$1" x="177.8" y="104.14">
+<attribute name="NAME" x="177.8" y="111.76" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="177.8" y="99.06" size="1.524" layer="96" align="center"/>
 </instance>
-<instance part="U$34" gate="G$1" x="175.26" y="91.44">
-<attribute name="NAME" x="175.26" y="99.06" size="1.524" layer="95" align="center"/>
-<attribute name="VALUE" x="175.26" y="86.36" size="1.524" layer="96" align="center"/>
+<instance part="SW-DWN_CAP" gate="G$1" x="177.8" y="86.36">
+<attribute name="NAME" x="177.8" y="93.98" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="177.8" y="81.28" size="1.524" layer="96" align="center"/>
 </instance>
-<instance part="U$37" gate="G$1" x="220.98" y="91.44">
-<attribute name="NAME" x="220.98" y="99.06" size="1.524" layer="95" align="center"/>
-<attribute name="VALUE" x="220.98" y="86.36" size="1.524" layer="96" align="center"/>
+<instance part="SW-DIV_CAP" gate="G$1" x="223.52" y="86.36">
+<attribute name="NAME" x="223.52" y="93.98" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="223.52" y="81.28" size="1.524" layer="96" align="center"/>
 </instance>
-<instance part="U$40" gate="G$1" x="190.5" y="121.92">
-<attribute name="NAME" x="190.5" y="129.54" size="1.524" layer="95" align="center"/>
-<attribute name="VALUE" x="190.5" y="116.84" size="1.524" layer="96" align="center"/>
+<instance part="SW-3_CAP" gate="G$1" x="193.04" y="121.92">
+<attribute name="NAME" x="193.04" y="129.54" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="193.04" y="116.84" size="1.524" layer="96" align="center"/>
 </instance>
-<instance part="U$41" gate="G$1" x="190.5" y="106.68">
-<attribute name="NAME" x="190.5" y="114.3" size="1.524" layer="95" align="center"/>
-<attribute name="VALUE" x="190.5" y="101.6" size="1.524" layer="96" align="center"/>
+<instance part="SW-9_CAP" gate="G$1" x="193.04" y="104.14">
+<attribute name="NAME" x="193.04" y="111.76" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="193.04" y="99.06" size="1.524" layer="96" align="center"/>
 </instance>
-<instance part="U$42" gate="G$1" x="190.5" y="91.44">
-<attribute name="NAME" x="190.5" y="99.06" size="1.524" layer="95" align="center"/>
-<attribute name="VALUE" x="190.5" y="86.36" size="1.524" layer="96" align="center"/>
+<instance part="SW-PLUS_CAP" gate="G$1" x="193.04" y="86.36">
+<attribute name="NAME" x="193.04" y="93.98" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="193.04" y="81.28" size="1.524" layer="96" align="center"/>
 </instance>
-<instance part="U$43" gate="G$1" x="205.74" y="91.44">
-<attribute name="NAME" x="205.74" y="99.06" size="1.524" layer="95" align="center"/>
-<attribute name="VALUE" x="205.74" y="86.36" size="1.524" layer="96" align="center"/>
+<instance part="SW-MINUS_CAP" gate="G$1" x="208.28" y="86.36">
+<attribute name="NAME" x="208.28" y="93.98" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="208.28" y="81.28" size="1.524" layer="96" align="center"/>
 </instance>
-<instance part="U$44" gate="G$1" x="205.74" y="121.92">
-<attribute name="NAME" x="205.74" y="129.54" size="1.524" layer="95" align="center"/>
-<attribute name="VALUE" x="205.74" y="116.84" size="1.524" layer="96" align="center"/>
+<instance part="SW-4_CAP" gate="G$1" x="208.28" y="121.92">
+<attribute name="NAME" x="208.28" y="129.54" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="208.28" y="116.84" size="1.524" layer="96" align="center"/>
 </instance>
-<instance part="U$45" gate="G$1" x="205.74" y="106.68">
-<attribute name="NAME" x="205.74" y="114.3" size="1.524" layer="95" align="center"/>
-<attribute name="VALUE" x="205.74" y="101.6" size="1.524" layer="96" align="center"/>
+<instance part="SW-0_CAP" gate="G$1" x="208.28" y="104.14">
+<attribute name="NAME" x="208.28" y="111.76" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="208.28" y="99.06" size="1.524" layer="96" align="center"/>
 </instance>
-<instance part="U$46" gate="G$1" x="238.76" y="106.68">
-<attribute name="NAME" x="238.76" y="114.3" size="1.524" layer="95" align="center"/>
-<attribute name="VALUE" x="238.76" y="101.6" size="1.524" layer="96" align="center"/>
+<instance part="SW-E_CAP" gate="G$1" x="238.76" y="104.14">
+<attribute name="NAME" x="238.76" y="111.76" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="238.76" y="99.06" size="1.524" layer="96" align="center"/>
 </instance>
-<instance part="U$47" gate="G$1" x="238.76" y="121.92">
+<instance part="SW-6_CAP" gate="G$1" x="238.76" y="121.92">
 <attribute name="NAME" x="238.76" y="129.54" size="1.524" layer="95" align="center"/>
 <attribute name="VALUE" x="238.76" y="116.84" size="1.524" layer="96" align="center"/>
 </instance>
-<instance part="U$48" gate="G$1" x="220.98" y="121.92">
-<attribute name="NAME" x="220.98" y="129.54" size="1.524" layer="95" align="center"/>
-<attribute name="VALUE" x="220.98" y="116.84" size="1.524" layer="96" align="center"/>
+<instance part="SW-5_CAP" gate="G$1" x="223.52" y="121.92">
+<attribute name="NAME" x="223.52" y="129.54" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="223.52" y="116.84" size="1.524" layer="96" align="center"/>
 </instance>
-<instance part="U$49" gate="G$1" x="220.98" y="106.68">
-<attribute name="NAME" x="220.98" y="114.3" size="1.524" layer="95" align="center"/>
-<attribute name="VALUE" x="220.98" y="101.6" size="1.524" layer="96" align="center"/>
+<instance part="SW-C_CAP" gate="G$1" x="223.52" y="104.14">
+<attribute name="NAME" x="223.52" y="111.76" size="1.524" layer="95" align="center"/>
+<attribute name="VALUE" x="223.52" y="99.06" size="1.524" layer="96" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -10146,7 +10404,7 @@ http://www.tag-connect.com</description>
 <wire x1="190.5" y1="152.4" x2="193.04" y2="152.4" width="0.1524" layer="91"/>
 <junction x="190.5" y="152.4"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<label x="223.52" y="162.56" size="1.778" layer="95"/>
+<label x="218.44" y="162.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D9/A7" class="0">
@@ -10233,7 +10491,7 @@ http://www.tag-connect.com</description>
 <wire x1="190.5" y1="167.64" x2="193.04" y2="167.64" width="0.1524" layer="91"/>
 <junction x="190.5" y="167.64"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<label x="223.52" y="165.1" size="1.778" layer="95"/>
+<label x="218.44" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CA1" class="0">
@@ -10495,7 +10753,7 @@ http://www.tag-connect.com</description>
 </sheets>
 <errors>
 <approved hash="102,1,76.2,167.64,OUT,+3V3,,,,"/>
-<approved hash="104,1,55.88,167.64,U2,IN,N$17,,,"/>
+<approved hash="104,1,55.88,167.64,U2,IN,VBUS_SW,,,"/>
 <approved hash="104,1,160.02,167.64,U3,VDD,VBUS,,,"/>
 <approved hash="104,1,185.42,162.56,U3,VSS,GND,,,"/>
 <approved hash="104,1,33.02,25.4,U4,GNDA,GND,,,"/>
