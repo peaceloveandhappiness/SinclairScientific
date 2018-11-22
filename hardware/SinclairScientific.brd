@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.0">
+<eagle version="9.2.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="12.5" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -23,19 +23,19 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="13" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="14" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="13" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -53,7 +53,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -5676,21 +5676,21 @@ einem neuen Namen ab.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C6" library="SinclairScientific" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10u" x="43.815" y="79.375" rot="R90">
+<element name="C6" library="SinclairScientific" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10u" x="43.815" y="79.375" smashed="yes" rot="R90">
 <attribute name="MFG" value="Murata Electronics North America" x="43.815" y="79.375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="GRM21BR61C106KE15K" x="43.815" y="79.375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="43.815" y="76.5175" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="490-6473-1-ND" x="43.815" y="79.375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="43.815" y="79.375" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="C7" library="SinclairScientific" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1u" x="33.9725" y="79.375" rot="R270">
+<element name="C7" library="SinclairScientific" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1u" x="33.9725" y="79.375" smashed="yes" rot="R270">
 <attribute name="MFG" value="TDK Corporation" x="33.9725" y="79.375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="C1608X7R1C105M080AC" x="33.9725" y="79.375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="33.9725" y="76.5175" size="1.016" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
 <attribute name="PN-DK" value="445-5131-1-ND" x="33.9725" y="79.375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="33.9725" y="79.375" size="1.016" layer="27" font="vector" ratio="20" rot="R270" align="center"/>
 </element>
-<element name="C8" library="SinclairScientific" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10u" x="36.5125" y="79.375" rot="R270">
+<element name="C8" library="SinclairScientific" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10u" x="36.5125" y="79.375" smashed="yes" rot="R270">
 <attribute name="COMPANY" value="ADAFRUIT INDUSTRIES" x="36.5125" y="79.375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DRAWN" value="KTOWN" x="36.5125" y="79.375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFG" value="Murata Electronics North America" x="36.5125" y="79.375" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5699,710 +5699,710 @@ einem neuen Namen ab.</description>
 <attribute name="PN-DK" value="490-6473-1-ND" x="36.5125" y="79.375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="36.5125" y="79.375" size="1.016" layer="27" font="vector" ratio="20" rot="R270" align="center"/>
 </element>
-<element name="HB" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="CHIPLED_0805_NOOUTLINE" package3d_urn="urn:adsk.eagle:package:6524624/1" value="GREEN" x="22.86" y="79.375" rot="R90">
+<element name="HB" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="CHIPLED_0805_NOOUTLINE" package3d_urn="urn:adsk.eagle:package:6524624/1" value="GREEN" x="22.86" y="79.375" smashed="yes" rot="R90">
 <attribute name="MFG" value="Lite-On Inc." x="22.86" y="79.375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="LTST-C170GKT" x="22.86" y="79.375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="22.733" y="78.0415" size="1.016" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
 <attribute name="PN-DK" value="160-1179-1-ND" x="22.86" y="79.375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="22.733" y="79.502" size="1.016" layer="27" font="vector" ratio="20" rot="R180" align="center"/>
 </element>
-<element name="C14" library="SinclairScientific" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1u" x="12.065" y="64.77" rot="R270">
+<element name="C14" library="SinclairScientific" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1u" x="12.065" y="64.77" smashed="yes" rot="R270">
 <attribute name="MFG" value="TDK Corporation" x="12.065" y="64.77" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="C1608X7R1C105M080AC" x="12.065" y="64.77" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="12.065" y="61.595" size="1.016" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
 <attribute name="PN-DK" value="445-5131-1-ND" x="12.065" y="64.77" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="12.065" y="64.77" size="1.016" layer="27" font="vector" ratio="20" rot="R270" align="center"/>
 </element>
-<element name="R7" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k" x="22.86" y="81.28">
+<element name="R7" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k" x="22.86" y="81.28" smashed="yes">
 <attribute name="MFG" value="Yageo" x="22.86" y="81.28" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL" x="22.86" y="81.28" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="22.86" y="82.8675" size="1.016" layer="25" font="vector" ratio="20" align="center"/>
 <attribute name="PN-DK" value="311-1.00KHRCT-ND" x="22.86" y="81.28" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="22.86" y="81.28" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="FID3" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6524616/1" value="FIDUCIAL&quot;&quot;" x="45.085" y="8.89" rot="R270">
+<element name="FID3" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6524616/1" value="FIDUCIAL&quot;&quot;" x="45.085" y="8.89" smashed="yes" rot="R270">
 <attribute name="DNP" value="DNP" x="45.085" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J3" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="USB-10118192-0001LF" package3d_urn="urn:adsk.eagle:package:6524789/2" value="USB-MICRO" x="23.495" y="0">
+<element name="J3" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="USB-10118192-0001LF" package3d_urn="urn:adsk.eagle:package:6524789/2" value="USB-MICRO" x="23.495" y="0" smashed="yes">
 <attribute name="MFG" value="Amphenol" x="23.495" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="10118192-0001LF" x="23.495" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="23.495" y="5.715" size="1.016" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
 <attribute name="PN-DK" value="609-4613-1-ND" x="23.495" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="23.495" y="2.54" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="U2" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT23-5" package3d_urn="urn:adsk.eagle:package:6524638/2" value="SPX3819-3.3" x="40.005" y="79.375">
+<element name="U2" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT23-5" package3d_urn="urn:adsk.eagle:package:6524638/2" value="SPX3819-3.3" x="40.005" y="79.375" smashed="yes">
 <attribute name="MFG" value="MaxLinear, Inc." x="40.005" y="79.375" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="SPX3819M5-L-3-3/TR" x="40.005" y="79.375" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="40.078" y="76.5175" size="1.016" layer="25" font="vector" ratio="20" align="center"/>
 <attribute name="PN-DK" value="1016-1873-1-ND" x="40.005" y="79.375" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="43.253" y="81.915" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="D1" library="SinclairScientific" package="SOD-123" value="MBR120" x="33.3375" y="57.15" rot="R270">
+<element name="D1" library="SinclairScientific" package="SOD-123" value="MBR120" x="33.3375" y="57.15" smashed="yes" rot="R270">
 <attribute name="MFG" value="ON Semiconductor" x="33.3375" y="57.15" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="MBR120VLSFT1G" x="33.3375" y="57.15" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="33.401" y="53.34" size="1.016" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
 <attribute name="PN-DK" value="MBR120VLSFT1GOSCT-ND" x="33.3375" y="57.15" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="33.4645" y="57.15" size="1.016" layer="27" font="vector" ratio="20" rot="R270" align="center"/>
 </element>
-<element name="J1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="JSTPH2" package3d_urn="urn:adsk.eagle:package:6524614/2" value="JSTPH" x="27.305" y="56.8325">
+<element name="J1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="JSTPH2" package3d_urn="urn:adsk.eagle:package:6524614/2" value="JSTPH" x="27.305" y="56.8325" smashed="yes">
 <attribute name="MFG" value="JST Sales America Inc." x="27.305" y="56.8325" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="S2B-PH-SM4-TB(LF)(SN)" x="27.305" y="56.8325" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="30.48" y="51.181" size="1.016" layer="25" font="vector" ratio="20" align="center"/>
 <attribute name="PN-DK" value="455-1749-1-ND" x="27.305" y="56.8325" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="27.305" y="56.8325" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="U3" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT23-5" package3d_urn="urn:adsk.eagle:package:6524638/2" value="MCP73831T-2ACI/OT" x="38.735" y="71.755">
+<element name="U3" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT23-5" package3d_urn="urn:adsk.eagle:package:6524638/2" value="MCP73831T-2ACI/OT" x="38.735" y="71.755" smashed="yes">
 <attribute name="MFG" value="Microchip Technology" x="38.735" y="71.755" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="MCP73831T-2ACI/OT" x="38.735" y="71.755" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="41.91" y="71.828" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="MCP73831T-2ACI/OTCT-ND" x="38.735" y="71.755" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="41.348" y="74.295" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="CHG" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="CHIPLED_0805_NOOUTLINE" package3d_urn="urn:adsk.eagle:package:6524624/1" value="GREEN-RA" x="32.385" y="1.905" rot="R270">
+<element name="CHG" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="CHIPLED_0805_NOOUTLINE" package3d_urn="urn:adsk.eagle:package:6524624/1" value="GREEN-RA" x="32.385" y="1.905" smashed="yes" rot="R270">
 <attribute name="MFG" value="Lite-On Inc." x="32.385" y="1.905" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="LTST-S220KGKT" x="32.385" y="1.905" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="35.687" y="1.9685" size="1.016" layer="25" font="vector" ratio="20" align="center"/>
 <attribute name="PN-DK" value="160-1468-1-ND" x="32.385" y="1.905" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="32.1945" y="1.778" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="R2" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k" x="32.385" y="3.81" rot="R180">
+<element name="R2" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k" x="32.385" y="3.81" smashed="yes" rot="R180">
 <attribute name="MFG" value="Yageo" x="32.385" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL" x="32.385" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="35.2425" y="3.81" size="1.016" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
 <attribute name="PN-DK" value="311-1.00KHRCT-ND" x="32.385" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="32.385" y="3.81" size="1.016" layer="27" font="vector" ratio="20" rot="R180" align="center"/>
 </element>
-<element name="C3" library="SinclairScientific" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10u" x="39.0525" y="67.31" rot="R180">
+<element name="C3" library="SinclairScientific" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10u" x="39.0525" y="67.31" smashed="yes" rot="R180">
 <attribute name="MFG" value="Murata Electronics North America" x="39.0525" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="GRM21BR61C106KE15K" x="39.0525" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="42.2275" y="67.31" size="1.016" layer="25" font="vector" ratio="20" align="center"/>
 <attribute name="PN-DK" value="490-6473-1-ND" x="39.0525" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="39.0525" y="67.31" size="1.016" layer="27" font="vector" ratio="20" rot="R180" align="center"/>
 </element>
-<element name="R8" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="3.3k" x="35.56" y="71.755" rot="R270">
+<element name="R8" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="3.3k" x="35.56" y="71.755" smashed="yes" rot="R270">
 <attribute name="MFG" value="Yageo" x="35.56" y="71.755" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0603FR-073K3L" x="35.56" y="71.755" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="33.9725" y="71.755" size="1.016" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
 <attribute name="PN-DK" value="311-3.30KHRCT-ND" x="35.56" y="71.755" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="35.56" y="71.755" size="1.016" layer="27" font="vector" ratio="20" rot="R270" align="center"/>
 </element>
-<element name="U4" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TQFP48_7MM" package3d_urn="urn:adsk.eagle:package:6524788/4" value="ATSAMD21G18" x="13.97" y="74.93" rot="R90">
+<element name="U4" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TQFP48_7MM" package3d_urn="urn:adsk.eagle:package:6524788/4" value="ATSAMD21G18" x="13.97" y="74.93" smashed="yes" rot="R90">
 <attribute name="MFG" value="Microchip Technology" x="13.97" y="74.93" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="ATSAMD21G18A-AUT" x="13.97" y="74.93" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="7.9375" y="71.12" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="ATSAMD21G18A-AUTCT-ND" x="13.97" y="74.93" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="13.97" y="74.93" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="C1" library="SinclairScientific" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1u" x="4.1275" y="75.2475" rot="R180">
+<element name="C1" library="SinclairScientific" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1u" x="4.1275" y="75.2475" smashed="yes" rot="R180">
 <attribute name="MFG" value="TDK Corporation" x="4.1275" y="75.2475" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="C1608X7R1C105M080AC" x="4.1275" y="75.2475" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="1.5875" y="75.2475" size="1.016" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
 <attribute name="PN-DK" value="445-5131-1-ND" x="4.1275" y="75.2475" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="4.1275" y="75.2475" size="1.016" layer="27" font="vector" ratio="20" rot="R180" align="center"/>
 </element>
-<element name="C2" library="SinclairScientific" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22p" x="7.3025" y="64.135" rot="R270">
+<element name="C2" library="SinclairScientific" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22p" x="7.3025" y="64.135" smashed="yes" rot="R270">
 <attribute name="MFG" value="Murata Electronics North America" x="7.3025" y="64.135" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="GQM1875C2E220JB12D" x="7.3025" y="64.135" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="7.3025" y="61.595" size="1.016" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
 <attribute name="PN-DK" value="490-16699-1-ND" x="7.3025" y="64.135" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="7.3025" y="64.135" size="1.016" layer="27" font="vector" ratio="20" rot="R270" align="center"/>
 </element>
-<element name="C4" library="SinclairScientific" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22p" x="9.2075" y="64.135" rot="R270">
+<element name="C4" library="SinclairScientific" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22p" x="9.2075" y="64.135" smashed="yes" rot="R270">
 <attribute name="MFG" value="Murata Electronics North America" x="9.2075" y="64.135" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="GQM1875C2E220JB12D" x="9.2075" y="64.135" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="9.2075" y="61.595" size="1.016" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
 <attribute name="PN-DK" value="490-16699-1-ND" x="9.2075" y="64.135" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="9.2075" y="64.135" size="1.016" layer="27" font="vector" ratio="20" rot="R270" align="center"/>
 </element>
-<element name="X2" library="SinclairScientific" package="XTAL3215" value="32.768" x="8.255" y="67.31" rot="R180">
+<element name="X2" library="SinclairScientific" package="XTAL3215" value="32.768" x="8.255" y="67.31" smashed="yes" rot="R180">
 <attribute name="MFG" value="ECS Inc." x="8.255" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="ECS-.327-12.5-34B-TR" x="8.255" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="8.015" y="68.875" size="1.016" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
 <attribute name="PN-DK" value="XC1617CT-ND" x="8.255" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="8.315" y="67.38" size="1.016" layer="27" font="vector" ratio="20" rot="R180" align="center"/>
 </element>
-<element name="C5" library="SinclairScientific" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n" x="4.1275" y="73.3425" rot="R180">
+<element name="C5" library="SinclairScientific" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n" x="4.1275" y="73.3425" smashed="yes" rot="R180">
 <attribute name="MFG" value="AVX Corporation" x="4.1275" y="73.3425" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="06035C104K4Z4A" x="4.1275" y="73.3425" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="1.5875" y="73.3425" size="1.016" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
 <attribute name="PN-DK" value="478-10679-1-ND" x="4.1275" y="73.3425" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="4.7625" y="73.3425" size="1.016" layer="27" font="vector" ratio="20" rot="R180" align="center"/>
 </element>
-<element name="FID1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6524616/1" value="FIDUCIAL&quot;&quot;" x="1.905" y="8.89">
+<element name="FID1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6524616/1" value="FIDUCIAL&quot;&quot;" x="1.905" y="8.89" smashed="yes">
 <attribute name="DNP" value="DNP" x="1.905" y="8.89" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C9" library="SinclairScientific" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n" x="13.97" y="64.77" rot="R270">
+<element name="C9" library="SinclairScientific" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n" x="13.97" y="64.77" smashed="yes" rot="R270">
 <attribute name="MFG" value="AVX Corporation" x="13.97" y="64.77" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="06035C104K4Z4A" x="13.97" y="64.77" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="13.97" y="61.9125" size="1.016" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
 <attribute name="PN-DK" value="478-10679-1-ND" x="13.97" y="64.77" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="13.97" y="64.77" size="1.016" layer="27" font="vector" ratio="20" rot="R270" align="center"/>
 </element>
-<element name="TC1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TC2030-IDC-NL" package3d_urn="urn:adsk.eagle:package:6524642/2" value="TC2030-IDC-NL" x="3.175" y="67.31" rot="R270">
+<element name="TC1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TC2030-IDC-NL" package3d_urn="urn:adsk.eagle:package:6524642/2" value="TC2030-IDC-NL" x="3.175" y="67.31" smashed="yes" rot="R270">
 <attribute name="MFG" value="Tag-Connect" x="3.175" y="67.31" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="TC2030-IDC-NL" x="3.175" y="67.31" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="3.18588125" y="62.55838125" size="1.016" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
 <attribute name="PN-DK" value="TC2030-IDC-NL" x="3.175" y="67.31" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C10" library="SinclairScientific" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n" x="21.9075" y="73.66">
+<element name="C10" library="SinclairScientific" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n" x="21.9075" y="73.66" smashed="yes">
 <attribute name="MFG" value="AVX Corporation" x="21.9075" y="73.66" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="06035C104K4Z4A" x="21.9075" y="73.66" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="21.9075" y="72.0725" size="1.016" layer="25" font="vector" ratio="20" align="center"/>
 <attribute name="PN-DK" value="478-10679-1-ND" x="21.9075" y="73.66" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="21.9075" y="73.66" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="C11" library="SinclairScientific" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n" x="5.08" y="81.28" rot="R180">
+<element name="C11" library="SinclairScientific" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n" x="5.08" y="81.28" smashed="yes" rot="R180">
 <attribute name="MFG" value="AVX Corporation" x="5.08" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="06035C104K4Z4A" x="5.08" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="5.08" y="79.6925" size="1.016" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
 <attribute name="PN-DK" value="478-10679-1-ND" x="5.08" y="81.28" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="5.08" y="81.28" size="1.016" layer="27" font="vector" ratio="20" rot="R180" align="center"/>
 </element>
-<element name="L1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="CHIPLED_0805_NOOUTLINE" package3d_urn="urn:adsk.eagle:package:6524624/1" value="GREEN" x="41.275" y="83.185" rot="R270">
+<element name="L1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="CHIPLED_0805_NOOUTLINE" package3d_urn="urn:adsk.eagle:package:6524624/1" value="GREEN" x="41.275" y="83.185" smashed="yes" rot="R270">
 <attribute name="MFG" value="Lite-On Inc." x="41.275" y="83.185" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="LTST-C170GKT" x="41.275" y="83.185" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="41.0845" y="84.836" size="1.016" layer="25" font="vector" ratio="20" align="center"/>
 <attribute name="PN-DK" value="160-1179-1-ND" x="41.275" y="83.185" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="41.402" y="83.058" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="R1" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k" x="37.465" y="83.185">
+<element name="R1" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k" x="37.465" y="83.185" smashed="yes">
 <attribute name="MFG" value="Yageo" x="37.465" y="83.185" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL" x="37.465" y="83.185" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="37.465" y="84.7725" size="1.016" layer="25" font="vector" ratio="20" align="center"/>
 <attribute name="PN-DK" value="311-1.00KHRCT-ND" x="37.465" y="83.185" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="37.465" y="83.185" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="F1" library="SinclairScientific" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="500mA" x="16.8275" y="2.8575" rot="R270">
+<element name="F1" library="SinclairScientific" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="500mA" x="16.8275" y="2.8575" smashed="yes" rot="R270">
 <attribute name="MFG" value="Bel Fuse Inc." x="16.8275" y="2.8575" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="0ZCK0050FF2E" x="16.8275" y="2.8575" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="16.8275" y="6.0325" size="1.016" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
 <attribute name="PN-DK" value="507-1813-1-ND" x="16.8275" y="2.8575" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="16.8275" y="2.8575" size="1.016" layer="27" font="vector" ratio="20" rot="R270" align="center"/>
 </element>
-<element name="C12" library="SinclairScientific" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1u" x="12.7" y="4.445" rot="R180">
+<element name="C12" library="SinclairScientific" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1u" x="12.7" y="4.445" smashed="yes" rot="R180">
 <attribute name="MFG" value="TDK Corporation" x="12.7" y="4.445" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="C1608X7R1C105M080AC" x="12.7" y="4.445" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="9.525" y="4.445" size="1.016" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
 <attribute name="PN-DK" value="445-5131-1-ND" x="12.7" y="4.445" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="12.7" y="4.445" size="1.016" layer="27" font="vector" ratio="20" rot="R180" align="center"/>
 </element>
-<element name="C13" library="SinclairScientific" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10u" x="12.7" y="1.905" rot="R180">
+<element name="C13" library="SinclairScientific" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10u" x="12.7" y="1.905" smashed="yes" rot="R180">
 <attribute name="MFG" value="Murata Electronics North America" x="12.7" y="1.905" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="GRM21BR61C106KE15K" x="12.7" y="1.905" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="9.2075" y="1.905" size="1.016" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
 <attribute name="PN-DK" value="490-6473-1-ND" x="12.7" y="1.905" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="12.7" y="1.905" size="1.016" layer="27" font="vector" ratio="20" rot="R180" align="center"/>
 </element>
-<element name="FID2" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6524616/1" value="FIDUCIAL&quot;&quot;" x="2.54" y="84.455">
+<element name="FID2" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6524616/1" value="FIDUCIAL&quot;&quot;" x="2.54" y="84.455" smashed="yes">
 <attribute name="DNP" value="DNP" x="2.54" y="84.455" size="1.778" layer="27" display="off"/>
 </element>
-<element name="SW-1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="7.112" y="22.86" rot="R90">
+<element name="SW-1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="7.112" y="22.86" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="7.112" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="TL3301SPF260QG" x="7.112" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="3.127" y="22.86" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="EG1870CT-ND" x="7.112" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="7.112" y="22.86" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="SW-5" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="18.034" y="33.655" rot="R90">
+<element name="SW-5" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="18.034" y="33.655" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="18.034" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="TL3301SPF260QG" x="18.034" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="14.049" y="33.655" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="EG1870CT-ND" x="18.034" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="18.034" y="33.655" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="SW-6" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="28.956" y="33.655" rot="R90">
+<element name="SW-6" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="28.956" y="33.655" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="28.956" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="TL3301SPF260QG" x="28.956" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="24.971" y="33.655" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="EG1870CT-ND" x="28.956" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="28.956" y="33.655" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="SW-7" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="7.112" y="44.45" rot="R90">
+<element name="SW-7" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="7.112" y="44.45" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="7.112" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="TL3301SPF260QG" x="7.112" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="3.127" y="44.45" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="EG1870CT-ND" x="7.112" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="7.112" y="44.45" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="SW-8" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="18.034" y="44.45" rot="R90">
+<element name="SW-8" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="18.034" y="44.45" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="18.034" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="TL3301SPF260QG" x="18.034" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="14.049" y="44.45" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="EG1870CT-ND" x="18.034" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="18.034" y="44.45" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="SW-9" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="28.956" y="44.45" rot="R90">
+<element name="SW-9" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="28.956" y="44.45" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="28.956" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="TL3301SPF260QG" x="28.956" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="24.971" y="44.45" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="EG1870CT-ND" x="28.956" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="28.956" y="44.45" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="SW-2" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="18.034" y="22.86" rot="R90">
+<element name="SW-2" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="18.034" y="22.86" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="18.034" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="TL3301SPF260QG" x="18.034" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="14.049" y="22.86" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="EG1870CT-ND" x="18.034" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="18.034" y="22.86" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="SW-3" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="28.956" y="22.86" rot="R90">
+<element name="SW-3" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="28.956" y="22.86" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="28.956" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="TL3301SPF260QG" x="28.956" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="24.971" y="22.86" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="EG1870CT-ND" x="28.956" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="28.956" y="22.86" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="SW-4" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="7.112" y="33.655" rot="R90">
+<element name="SW-4" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="7.112" y="33.655" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="7.112" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="TL3301SPF260QG" x="7.112" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="3.127" y="33.655" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="EG1870CT-ND" x="7.112" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="7.112" y="33.655" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="SW-C" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="18.034" y="55.245" rot="R270">
+<element name="SW-C" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="18.034" y="55.245" smashed="yes" rot="R270">
 <attribute name="MFG" value="E-Switch" x="18.034" y="55.245" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="TL3301SPF260QG" x="18.034" y="55.245" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="14.049" y="55.245" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="EG1870CT-ND" x="18.034" y="55.245" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="18.034" y="55.245" size="1.016" layer="27" font="vector" ratio="20" rot="R270" align="center"/>
+<attribute name="VALUE" x="15.8115" y="55.245" size="1.016" layer="27" font="vector" ratio="20" rot="R270" align="center"/>
 </element>
-<element name="SW-DIV" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="39.878" y="33.655" rot="R90">
+<element name="SW-DIV" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="39.878" y="33.655" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="39.878" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="TL3301SPF260QG" x="39.878" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="35.893" y="33.655" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="EG1870CT-ND" x="39.878" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="39.878" y="33.655" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="SW-MULT" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="39.878" y="44.45" rot="R90">
+<element name="SW-MULT" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="39.878" y="44.45" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="39.878" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="TL3301SPF260QG" x="39.878" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="35.893" y="44.45" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="EG1870CT-ND" x="39.878" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="39.878" y="44.45" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="SW-UP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="7.112" y="55.245" rot="R90">
+<element name="SW-UP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="7.112" y="55.245" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="7.112" y="55.245" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="TL3301SPF260QG" x="7.112" y="55.245" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="3.127" y="55.245" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="EG1870CT-ND" x="7.112" y="55.245" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="7.112" y="55.245" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
+<attribute name="VALUE" x="5.5245" y="55.245" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="SW-E" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="28.956" y="12.065" rot="R90">
+<element name="SW-E" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="28.956" y="12.065" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="28.956" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="TL3301SPF260QG" x="28.956" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="24.971" y="12.065" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="EG1870CT-ND" x="28.956" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="28.956" y="12.065" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="SW-0" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="18.034" y="12.065" rot="R90">
+<element name="SW-0" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="18.034" y="12.065" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="18.034" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="TL3301SPF260QG" x="18.034" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="14.049" y="12.065" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="EG1870CT-ND" x="18.034" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="18.034" y="12.065" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="SW-DWN" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="7.112" y="12.065" rot="R90">
+<element name="SW-DWN" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="7.112" y="12.065" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="7.112" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="TL3301SPF260QG" x="7.112" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="3.127" y="12.065" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="EG1870CT-ND" x="7.112" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="7.112" y="12.065" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="SW-PLUS" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="39.878" y="22.86" rot="R90">
+<element name="SW-PLUS" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="39.878" y="22.86" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="39.878" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="TL3301SPF260QG" x="39.878" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="35.893" y="22.86" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="EG1870CT-ND" x="39.878" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="39.878" y="22.86" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="SW-MINUS" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="39.878" y="12.065" rot="R90">
+<element name="SW-MINUS" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="TACT_6X6" package3d_urn="urn:adsk.eagle:package:6524808/4" value="SPST_TACT-TL3301SPF" x="39.878" y="12.065" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="39.878" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="TL3301SPF260QG" x="39.878" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="35.893" y="12.065" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="EG1870CT-ND" x="39.878" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="39.878" y="12.065" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="R3" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="3.3k" x="19.685" y="64.77" rot="R270">
+<element name="R3" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="3.3k" x="19.685" y="64.77" smashed="yes" rot="R270">
 <attribute name="MFG" value="Yageo" x="19.685" y="64.77" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0603FR-073K3L" x="19.685" y="64.77" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="19.685" y="61.9125" size="1.016" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
 <attribute name="PN-DK" value="311-3.30KHRCT-ND" x="19.685" y="64.77" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="19.685" y="64.77" size="1.016" layer="27" font="vector" ratio="20" rot="R270" align="center"/>
 </element>
-<element name="R4" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="3.3k" x="17.78" y="64.77" rot="R270">
+<element name="R4" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="3.3k" x="17.78" y="64.77" smashed="yes" rot="R270">
 <attribute name="MFG" value="Yageo" x="17.78" y="64.77" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0603FR-073K3L" x="17.78" y="64.77" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="17.78" y="61.9125" size="1.016" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
 <attribute name="PN-DK" value="311-3.30KHRCT-ND" x="17.78" y="64.77" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="17.78" y="64.77" size="1.016" layer="27" font="vector" ratio="20" rot="R270" align="center"/>
 </element>
-<element name="T1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="21.59" y="98.425">
+<element name="T1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="21.59" y="98.425" smashed="yes">
 <attribute name="MFG" value="ON Semiconductor" x="21.59" y="98.425" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="FDV303N" x="21.59" y="98.425" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="19.685" y="97.155" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="FDV303NCT-ND" x="21.59" y="98.425" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="21.59" y="98.425" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="T2" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="29.21" y="98.425">
+<element name="T2" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="29.21" y="98.425" smashed="yes">
 <attribute name="MFG" value="ON Semiconductor" x="29.21" y="98.425" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="FDV303N" x="29.21" y="98.425" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="27.305" y="97.155" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="FDV303NCT-ND" x="29.21" y="98.425" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="29.21" y="98.425" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="T3" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="13.97" y="98.425">
+<element name="T3" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="13.97" y="98.425" smashed="yes">
 <attribute name="MFG" value="ON Semiconductor" x="13.97" y="98.425" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="FDV303N" x="13.97" y="98.425" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="12.065" y="97.155" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="FDV303NCT-ND" x="13.97" y="98.425" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="13.97" y="98.425" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="R5" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150" x="21.59" y="95.25" rot="R90">
+<element name="R5" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150" x="21.59" y="95.25" smashed="yes" rot="R90">
 <attribute name="MFG" value="Yageo" x="21.59" y="95.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-07150RL" x="21.59" y="95.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="23.1775" y="94.615" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="311-150HRCT-ND" x="21.59" y="95.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="21.59" y="95.25" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="R6" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150" x="29.21" y="95.25" rot="R90">
+<element name="R6" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150" x="29.21" y="95.25" smashed="yes" rot="R90">
 <attribute name="MFG" value="Yageo" x="29.21" y="95.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-07150RL" x="29.21" y="95.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="30.7975" y="94.615" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="311-150HRCT-ND" x="29.21" y="95.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="29.21" y="95.25" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="R9" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150" x="13.97" y="95.25" rot="R90">
+<element name="R9" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150" x="13.97" y="95.25" smashed="yes" rot="R90">
 <attribute name="MFG" value="Yageo" x="13.97" y="95.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-07150RL" x="13.97" y="95.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="15.5575" y="94.615" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="311-150HRCT-ND" x="13.97" y="95.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="13.97" y="95.25" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="T4" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="17.78" y="98.425">
+<element name="T4" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="17.78" y="98.425" smashed="yes">
 <attribute name="MFG" value="ON Semiconductor" x="17.78" y="98.425" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="FDV303N" x="17.78" y="98.425" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="15.875" y="97.155" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="FDV303NCT-ND" x="17.78" y="98.425" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="17.78" y="98.425" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="R10" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150" x="17.78" y="95.25" rot="R90">
+<element name="R10" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150" x="17.78" y="95.25" smashed="yes" rot="R90">
 <attribute name="MFG" value="Yageo" x="17.78" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-07150RL" x="17.78" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="19.3675" y="94.615" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="311-150HRCT-ND" x="17.78" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="17.78" y="95.25" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="T5" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="25.4" y="98.425">
+<element name="T5" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="25.4" y="98.425" smashed="yes">
 <attribute name="MFG" value="ON Semiconductor" x="25.4" y="98.425" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="FDV303N" x="25.4" y="98.425" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="23.495" y="97.155" size="1.016" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
 <attribute name="PN-DK" value="FDV303NCT-ND" x="25.4" y="98.425" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="25.4" y="98.425" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="R11" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150" x="25.4" y="95.25" rot="R90">
+<element name="R11" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150" x="25.4" y="95.25" smashed="yes" rot="R90">
 <attribute name="MFG" value="Yageo" x="25.4" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-07150RL" x="25.4" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="26.9875" y="94.615" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="311-150HRCT-ND" x="25.4" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="25.4" y="95.25" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="T6" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="10.16" y="98.425">
+<element name="T6" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="10.16" y="98.425" smashed="yes">
 <attribute name="MFG" value="ON Semiconductor" x="10.16" y="98.425" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="FDV303N" x="10.16" y="98.425" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="8.255" y="97.155" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="FDV303NCT-ND" x="10.16" y="98.425" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="10.16" y="98.425" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="R12" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150" x="10.16" y="95.25" rot="R90">
+<element name="R12" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150" x="10.16" y="95.25" smashed="yes" rot="R90">
 <attribute name="MFG" value="Yageo" x="10.16" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-07150RL" x="10.16" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="11.7475" y="94.615" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="311-150HRCT-ND" x="10.16" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="10.16" y="95.25" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="T7" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="36.83" y="98.425">
+<element name="T7" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="36.83" y="98.425" smashed="yes">
 <attribute name="MFG" value="ON Semiconductor" x="36.83" y="98.425" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="FDV303N" x="36.83" y="98.425" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="34.925" y="97.155" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="FDV303NCT-ND" x="36.83" y="98.425" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="36.83" y="98.425" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="R13" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150" x="36.83" y="95.25" rot="R90">
+<element name="R13" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150" x="36.83" y="95.25" smashed="yes" rot="R90">
 <attribute name="MFG" value="Yageo" x="36.83" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-07150RL" x="36.83" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="38.4175" y="94.615" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="311-150HRCT-ND" x="36.83" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="36.83" y="95.25" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="T8" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="33.02" y="98.425">
+<element name="T8" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="33.02" y="98.425" smashed="yes">
 <attribute name="MFG" value="ON Semiconductor" x="33.02" y="98.425" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="FDV303N" x="33.02" y="98.425" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="31.115" y="97.155" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="FDV303NCT-ND" x="33.02" y="98.425" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="33.02" y="98.425" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="R14" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150" x="33.02" y="95.25" rot="R90">
+<element name="R14" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="150" x="33.02" y="95.25" smashed="yes" rot="R90">
 <attribute name="MFG" value="Yageo" x="33.02" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-07150RL" x="33.02" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="34.6075" y="94.615" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="311-150HRCT-ND" x="33.02" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="33.02" y="95.25" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="T9" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="8.255" y="101.9175">
+<element name="T9" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="8.255" y="101.9175" smashed="yes">
 <attribute name="MFG" value="ON Semiconductor" x="8.255" y="101.9175" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="FDV303N" x="8.255" y="101.9175" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="6.985" y="100.965" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="FDV303NCT-ND" x="8.255" y="101.9175" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="8.255" y="101.9175" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="R15" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k" x="7.9375" y="105.0925" rot="R90">
+<element name="R15" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k" x="7.9375" y="105.0925" smashed="yes" rot="R90">
 <attribute name="MFG" value="Yageo" x="7.9375" y="105.0925" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL" x="7.9375" y="105.0925" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="9.525" y="105.0925" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="311-1.00KHRCT-ND" x="7.9375" y="105.0925" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="7.9375" y="105.0925" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="T10" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="12.065" y="101.9175">
+<element name="T10" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="12.065" y="101.9175" smashed="yes">
 <attribute name="MFG" value="ON Semiconductor" x="12.065" y="101.9175" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="FDV303N" x="12.065" y="101.9175" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="10.16" y="100.965" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="FDV303NCT-ND" x="12.065" y="101.9175" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="12.065" y="101.9175" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="R16" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k" x="11.7475" y="105.0925" rot="R90">
+<element name="R16" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k" x="11.7475" y="105.0925" smashed="yes" rot="R90">
 <attribute name="MFG" value="Yageo" x="11.7475" y="106.3625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL" x="11.7475" y="106.3625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="13.335" y="105.0925" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="311-1.00KHRCT-ND" x="11.7475" y="106.3625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="11.7475" y="105.0925" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="T11" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="15.875" y="101.9175">
+<element name="T11" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="15.875" y="101.9175" smashed="yes">
 <attribute name="MFG" value="ON Semiconductor" x="15.875" y="101.9175" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="FDV303N" x="15.875" y="101.9175" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="13.97" y="100.965" size="1.016" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
 <attribute name="PN-DK" value="FDV303NCT-ND" x="15.875" y="101.9175" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="15.875" y="101.9175" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="R17" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k" x="15.5575" y="105.0925" rot="R90">
+<element name="R17" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k" x="15.5575" y="105.0925" smashed="yes" rot="R90">
 <attribute name="MFG" value="Yageo" x="15.5575" y="106.3625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL" x="15.5575" y="106.3625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="17.145" y="105.0925" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="311-1.00KHRCT-ND" x="15.5575" y="106.3625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="15.5575" y="105.0925" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="T12" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="19.685" y="101.9175">
+<element name="T12" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="19.685" y="101.9175" smashed="yes">
 <attribute name="MFG" value="ON Semiconductor" x="19.685" y="101.9175" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="FDV303N" x="19.685" y="101.9175" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="17.78" y="100.965" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="FDV303NCT-ND" x="19.685" y="101.9175" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="19.685" y="101.9175" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="R18" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k" x="19.3675" y="105.0925" rot="R90">
+<element name="R18" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k" x="19.3675" y="105.0925" smashed="yes" rot="R90">
 <attribute name="MFG" value="Yageo" x="19.3675" y="106.3625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL" x="19.3675" y="106.3625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="20.955" y="105.0925" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="311-1.00KHRCT-ND" x="19.3675" y="106.3625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="19.3675" y="105.0925" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="T13" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="23.495" y="101.9175">
+<element name="T13" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="23.495" y="101.9175" smashed="yes">
 <attribute name="MFG" value="ON Semiconductor" x="23.495" y="101.9175" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="FDV303N" x="23.495" y="101.9175" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="21.59" y="100.965" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="FDV303NCT-ND" x="23.495" y="101.9175" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="23.495" y="101.9175" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="R19" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k" x="23.1775" y="105.0925" rot="R90">
+<element name="R19" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k" x="23.1775" y="105.0925" smashed="yes" rot="R90">
 <attribute name="MFG" value="Yageo" x="23.1775" y="106.3625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL" x="23.1775" y="106.3625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="24.765" y="105.0925" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="311-1.00KHRCT-ND" x="23.1775" y="106.3625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="23.1775" y="105.0925" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="T14" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="27.305" y="101.9175">
+<element name="T14" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="27.305" y="101.9175" smashed="yes">
 <attribute name="MFG" value="ON Semiconductor" x="27.305" y="101.9175" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="FDV303N" x="27.305" y="101.9175" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="25.4" y="100.965" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="FDV303NCT-ND" x="27.305" y="101.9175" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="27.305" y="101.9175" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="R20" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k" x="26.9875" y="105.0925" rot="R90">
+<element name="R20" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k" x="26.9875" y="105.0925" smashed="yes" rot="R90">
 <attribute name="MFG" value="Yageo" x="26.9875" y="106.3625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL" x="26.9875" y="106.3625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="28.575" y="105.0925" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="311-1.00KHRCT-ND" x="26.9875" y="106.3625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="26.9875" y="105.0925" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="T15" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="31.115" y="101.9175">
+<element name="T15" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="31.115" y="101.9175" smashed="yes">
 <attribute name="MFG" value="ON Semiconductor" x="31.115" y="101.9175" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="FDV303N" x="31.115" y="101.9175" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="29.21" y="100.965" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="FDV303NCT-ND" x="31.115" y="101.9175" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="31.115" y="101.9175" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="R21" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k" x="30.7975" y="105.0925" rot="R90">
+<element name="R21" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k" x="30.7975" y="105.0925" smashed="yes" rot="R90">
 <attribute name="MFG" value="Yageo" x="30.7975" y="106.3625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL" x="30.7975" y="106.3625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="32.385" y="105.0925" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="311-1.00KHRCT-ND" x="30.7975" y="106.3625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="30.7975" y="105.0925" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="T16" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="34.925" y="101.9175">
+<element name="T16" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="34.925" y="101.9175" smashed="yes">
 <attribute name="MFG" value="ON Semiconductor" x="34.925" y="101.9175" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="FDV303N" x="34.925" y="101.9175" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="33.02" y="100.965" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="FDV303NCT-ND" x="34.925" y="101.9175" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="34.925" y="101.9175" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="R22" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k" x="34.6075" y="105.0925" rot="R90">
+<element name="R22" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k" x="34.6075" y="105.0925" smashed="yes" rot="R90">
 <attribute name="MFG" value="Yageo" x="34.6075" y="106.3625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL" x="34.6075" y="106.3625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="36.195" y="105.0925" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="311-1.00KHRCT-ND" x="34.6075" y="106.3625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="34.6075" y="105.0925" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="T17" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="38.735" y="101.9175">
+<element name="T17" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SOT-23" package3d_urn="urn:adsk.eagle:package:6524636/3" value="" x="38.735" y="101.9175" smashed="yes">
 <attribute name="MFG" value="ON Semiconductor" x="38.735" y="101.9175" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="FDV303N" x="38.735" y="101.9175" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="36.83" y="100.965" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="FDV303NCT-ND" x="38.735" y="101.9175" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="38.735" y="101.9175" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="R23" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k" x="38.4175" y="105.0925" rot="R90">
+<element name="R23" library="SinclairScientific" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k" x="38.4175" y="105.0925" smashed="yes" rot="R90">
 <attribute name="MFG" value="Yageo" x="38.4175" y="106.3625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL" x="38.4175" y="106.3625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="40.005" y="105.0925" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="311-1.00KHRCT-ND" x="38.4175" y="106.3625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="38.4175" y="105.0925" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="U5" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SON127P600X500X80-9N" package3d_urn="urn:adsk.eagle:package:6540153/1" value="W25Q128JVWSON_6X5" x="28.575" y="73.66" rot="R90">
+<element name="U5" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SON127P600X500X80-9N" package3d_urn="urn:adsk.eagle:package:6540153/1" value="W25Q128JVWSON_6X5" x="28.575" y="73.66" smashed="yes" rot="R90">
 <attribute name="MFG" value="Winbond Electronics" x="28.575" y="73.66" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="W25Q128JVPIM" x="28.575" y="73.66" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="32.385" y="73.66" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="W25Q128JVPIMCT-ND" x="28.575" y="73.66" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="28.575" y="73.66" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="C15" library="SinclairScientific" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n" x="26.67" y="81.28" rot="R90">
+<element name="C15" library="SinclairScientific" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n" x="26.67" y="81.28" smashed="yes" rot="R90">
 <attribute name="MFG" value="AVX Corporation" x="26.67" y="81.915" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="06035C104K4Z4A" x="26.67" y="81.915" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="28.2575" y="81.28" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="478-10679-1-ND" x="26.67" y="81.915" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="26.67" y="81.28" size="1.016" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
-<element name="J2" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="2X09-2MM-SMD" package3d_urn="urn:adsk.eagle:package:6524810/3" value="87759-1850" x="23.495" y="88.9">
+<element name="J2" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="2X09-2MM-SMD" package3d_urn="urn:adsk.eagle:package:6524810/3" value="87759-1850" x="23.495" y="88.9" smashed="yes">
 <attribute name="MFG" value="Molex" x="23.495" y="88.9" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="87759-1850" x="23.495" y="88.9" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="33.655" y="88.9" size="1.016" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PN-DK" value="WM18656-ND " x="23.495" y="88.9" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="23.495" y="88.9" size="1.016" layer="27" font="vector" ratio="20" align="center"/>
 </element>
-<element name="SILK-QC" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SILK_QC" package3d_urn="urn:adsk.eagle:package:6524815/1" value="SILK_QC" x="23.495" y="94.615" rot="MR0">
+<element name="SILK-QC" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SILK_QC" package3d_urn="urn:adsk.eagle:package:6524815/1" value="SILK_QC" x="23.495" y="94.615" smashed="yes" rot="MR0">
 <attribute name="DNP" value="DNP" x="23.495" y="94.615" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRODUCT" value="Sinclair Scientific" x="23.1775" y="99.695" size="2.032" layer="22" font="vector" ratio="15" rot="MR0" align="center"/>
 <attribute name="REV" value="1C" x="20.955" y="95.885" size="2.032" layer="22" font="vector" ratio="15" rot="MR0" align="center-left"/>
 </element>
-<element name="U$17" library="SinclairScientific" package="LOGO_PLH_2700" value="" x="23.1775" y="42.545" rot="MR270"/>
-<element name="SW-1_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="7.112" y="12.065">
+<element name="U$17" library="SinclairScientific" package="LOGO_PLH_2700" value="" x="23.1775" y="42.545" smashed="yes" rot="MR270"/>
+<element name="SW-1_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="7.112" y="12.065" smashed="yes">
 <attribute name="MFG" value="E-Switch" x="7.112" y="12.065" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="1SWHT" x="7.112" y="12.065" size="1.778" layer="27" display="off"/>
 <attribute name="PN-DK" value="EG4365-ND" x="7.112" y="12.065" size="1.778" layer="27" display="off"/>
 </element>
-<element name="SW-7_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="18.034" y="12.065">
+<element name="SW-7_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="18.034" y="12.065" smashed="yes">
 <attribute name="MFG" value="E-Switch" x="18.034" y="12.065" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="1SWHT" x="18.034" y="12.065" size="1.778" layer="27" display="off"/>
 <attribute name="PN-DK" value="EG4365-ND" x="18.034" y="12.065" size="1.778" layer="27" display="off"/>
 </element>
-<element name="SW-UP_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="28.956" y="12.065">
+<element name="SW-UP_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="28.956" y="12.065" smashed="yes">
 <attribute name="MFG" value="E-Switch" x="28.956" y="12.065" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="1SWHT" x="28.956" y="12.065" size="1.778" layer="27" display="off"/>
 <attribute name="PN-DK" value="EG4365-ND" x="28.956" y="12.065" size="1.778" layer="27" display="off"/>
 </element>
-<element name="SW-MULT_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="39.878" y="12.065">
+<element name="SW-MULT_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="39.878" y="12.065" smashed="yes">
 <attribute name="MFG" value="E-Switch" x="39.878" y="12.065" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="1SWHT" x="39.878" y="12.065" size="1.778" layer="27" display="off"/>
 <attribute name="PN-DK" value="EG4365-ND" x="39.878" y="12.065" size="1.778" layer="27" display="off"/>
 </element>
-<element name="SW-2_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="7.112" y="22.86" rot="R90">
+<element name="SW-2_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="7.112" y="22.86" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="7.112" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="1SWHT" x="7.112" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN-DK" value="EG4365-ND" x="7.112" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="SW-8_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="18.034" y="22.86" rot="R90">
+<element name="SW-8_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="18.034" y="22.86" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="18.034" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="1SWHT" x="18.034" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN-DK" value="EG4365-ND" x="18.034" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="SW-DWN_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="28.956" y="22.86" rot="R90">
+<element name="SW-DWN_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="28.956" y="22.86" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="28.956" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="1SWHT" x="28.956" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN-DK" value="EG4365-ND" x="28.956" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="SW-DIV_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="39.878" y="22.86" rot="R90">
+<element name="SW-DIV_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="39.878" y="22.86" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="39.878" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="1SWHT" x="39.878" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN-DK" value="EG4365-ND" x="39.878" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="SW-3_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="7.112" y="33.655" rot="R90">
+<element name="SW-3_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="7.112" y="33.655" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="7.112" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="1SWHT" x="7.112" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN-DK" value="EG4365-ND" x="7.112" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="SW-9_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="18.034" y="33.655" rot="R90">
+<element name="SW-9_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="18.034" y="33.655" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="18.034" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="1SWHT" x="18.034" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN-DK" value="EG4365-ND" x="18.034" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="SW-PLUS_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="28.956" y="33.655" rot="R90">
+<element name="SW-PLUS_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="28.956" y="33.655" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="28.956" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="1SWHT" x="28.956" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN-DK" value="EG4365-ND" x="28.956" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="SW-MINUS_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="39.878" y="33.655" rot="R90">
+<element name="SW-MINUS_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="39.878" y="33.655" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="39.878" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="1SWHT" x="39.878" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN-DK" value="EG4365-ND" x="39.878" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="SW-4_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="7.112" y="44.45" rot="R90">
+<element name="SW-4_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="7.112" y="44.45" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="7.112" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="1SWHT" x="7.112" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN-DK" value="EG4365-ND" x="7.112" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="SW-0_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="18.034" y="44.45" rot="R90">
+<element name="SW-0_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="18.034" y="44.45" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="18.034" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="1SWHT" x="18.034" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN-DK" value="EG4365-ND" x="18.034" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="SW-E_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="28.956" y="44.45" rot="R90">
+<element name="SW-E_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="28.956" y="44.45" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="28.956" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="1SWHT" x="28.956" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN-DK" value="EG4365-ND" x="28.956" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="SW-6_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="39.878" y="44.45" rot="R90">
+<element name="SW-6_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="39.878" y="44.45" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="39.878" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="1SWHT" x="39.878" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN-DK" value="EG4365-ND" x="39.878" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="SW-5_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="18.034" y="55.245" rot="R90">
+<element name="SW-5_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="18.034" y="55.245" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="18.034" y="55.245" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="1SWHT" x="18.034" y="55.245" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN-DK" value="EG4365-ND" x="18.034" y="55.245" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="SW-C_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="7.112" y="55.245" rot="R90">
+<element name="SW-C_CAP" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="SW-CAP_1SWXXX" package3d_urn="urn:adsk.eagle:package:6529044/4" value="SW-CAP_1SXXX" x="7.112" y="55.245" smashed="yes" rot="R90">
 <attribute name="MFG" value="E-Switch" x="7.112" y="55.245" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="1SWHT" x="7.112" y="55.245" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN-DK" value="EG4365-ND" x="7.112" y="55.245" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U$50" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="HOLE_3-48" package3d_urn="urn:adsk.eagle:package:6524812/2" value="" x="12.573" y="49.784"/>
-<element name="U$51" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="HOLE_3-48" package3d_urn="urn:adsk.eagle:package:6524812/2" value="" x="12.446" y="17.526"/>
-<element name="U$52" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="HOLE_3-48" package3d_urn="urn:adsk.eagle:package:6524812/2" value="" x="34.417" y="17.526"/>
-<element name="U$53" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="HOLE_3-48" package3d_urn="urn:adsk.eagle:package:6524812/2" value="" x="34.417" y="49.784"/>
-<element name="U$54" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="HOLE_3-48" package3d_urn="urn:adsk.eagle:package:6524812/2" value="" x="38.1" y="89.535"/>
-<element name="U$55" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="HOLE_3-48" package3d_urn="urn:adsk.eagle:package:6524812/2" value="" x="8.89" y="89.535"/>
-<element name="S1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="CL-SB-12B" package3d_urn="urn:adsk.eagle:package:6619163/3" value="SPDT_SLIDE-CB-SB-12B" x="39.878" y="56.1975" rot="R90">
+<element name="U$50" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="HOLE_3-48" package3d_urn="urn:adsk.eagle:package:6524812/2" value="" x="12.573" y="49.784" smashed="yes"/>
+<element name="U$51" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="HOLE_3-48" package3d_urn="urn:adsk.eagle:package:6524812/2" value="" x="12.446" y="17.526" smashed="yes"/>
+<element name="U$52" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="HOLE_3-48" package3d_urn="urn:adsk.eagle:package:6524812/2" value="" x="34.417" y="17.526" smashed="yes"/>
+<element name="U$53" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="HOLE_3-48" package3d_urn="urn:adsk.eagle:package:6524812/2" value="" x="34.417" y="49.784" smashed="yes"/>
+<element name="U$54" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="HOLE_3-48" package3d_urn="urn:adsk.eagle:package:6524812/2" value="" x="38.1" y="89.535" smashed="yes"/>
+<element name="U$55" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="HOLE_3-48" package3d_urn="urn:adsk.eagle:package:6524812/2" value="" x="8.89" y="89.535" smashed="yes"/>
+<element name="S1" library="SinclairScientific" library_urn="urn:adsk.eagle:library:6524367" package="CL-SB-12B" package3d_urn="urn:adsk.eagle:package:6619163/3" value="SPDT_SLIDE-CB-SB-12B" x="39.878" y="56.1975" smashed="yes" rot="R90">
 <attribute name="MFG" value="Nidec Copal Electronics" x="39.878" y="56.1975" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CL-SB-12B-01T" x="39.878" y="56.1975" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="39.878" y="61.595" size="1.016" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
 <attribute name="PN-DK" value="563-1318-1-ND" x="39.878" y="56.1975" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="39.878" y="56.1975" size="1.016" layer="27" font="vector" ratio="20" rot="R270" align="center"/>
+<attribute name="VALUE" x="42.1005" y="56.1975" size="1.016" layer="27" font="vector" ratio="20" rot="R270" align="center"/>
 </element>
 </elements>
 <signals>
