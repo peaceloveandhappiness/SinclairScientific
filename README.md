@@ -3,8 +3,9 @@
 
 This is a recreation of the Sinclair Scientific calculator, which was introduced in 1974 as the first affordable scientific calculator. 
 
-This work was inspired by and laregely based upon [ArduinoEnigma's similar project](https://gitlab.com/arduinoenigma/ArduinoNanoSinclairScientificCalculator), which in turn was inspired by Ken Shirriff's [Sinclair Scientific Calculator Simulator](http://righto.com/sinclair). The firmware code used in this project is based on ArduinoEnigma's [SinclairScientific7 code](https://gitlab.com/arduinoenigma/ArduinoNanoSinclairScientificCalculator/tree/master/SinclairScientific7).
+This work was inspired by and largely based upon [ArduinoEnigma's similar project](https://gitlab.com/arduinoenigma/ArduinoNanoSinclairScientificCalculator), which was inspired by [Ken Shirriff's Sinclair Scientific Calculator Simulator](http://righto.com/sinclair). The hardware design is based upon [Adafruit's Feather M0](https://github.com/adafruit/Adafruit-Feather-M0-Basic-Proto-PCB), as well as [ArduinoEnigma's hardware designs](https://hackaday.io/project/91895-sinclair-scientific-calculator-emulator). The firmware used in this project is based on [ArduinoEnigma's SinclairScientific7 code](https://gitlab.com/arduinoenigma/ArduinoNanoSinclairScientificCalculator/tree/master/SinclairScientific7) and [Adafruit's SAMD toolchain](https://github.com/adafruit/ArduinoCore-samd).
 
+The operating and assembly instruction manuals were found [on Wass.net](http://www.wass.net/manuals/) and the coverplate text was generated using the image found on [Julian M Bucknall's blog](http://blog.boyet.com/blog/blog/new-calculator-sinclair-scientific/) for reference.
 
 
 ## Background Information
@@ -23,5 +24,5 @@ This work was inspired by and laregely based upon [ArduinoEnigma's similar proje
 * [ArduinoEnigma's Hackster Guide](https://www.hackster.io/arduinoenigma/sinclair-scientific-calculator-emulator-a11dba)
 * [ArduinoEnigma's Hackaday Guide](https://hackaday.io/project/91895-sinclair-scientific-calculator-emulator)
 * [ArduinoEnigma's Tindie Page](https://www.tindie.com/products/ArduinoEnigma/sinclair-scientific-calculator-emulator/)
-
+* [Adafruit's Feather M0](https://github.com/adafruit/Adafruit-Feather-M0-Basic-Proto-PCB)
 
