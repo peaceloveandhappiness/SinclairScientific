@@ -303,7 +303,8 @@ void SinclairLogo() {
 
   int showtime = 1;
 
-  for (byte t = 0; t < 14; t++) {
+  for (byte t = 0; t < 14; t++)
+  {
     if (t > 2)
     {
       showtime++;
@@ -312,10 +313,15 @@ void SinclairLogo() {
     {
       showtime++;
     }
-    for (int s = 0; s < 400; s++) {
+    
+    for (int s = 0; s < 400; s++) 
+    {
       delayMicroseconds(120); // this delay is more important than the hyperoptimized logic below. must have off time.
-      for (byte digit = 0; digit < 9; digit++) {
-        switch (digit) {
+      
+      for (byte digit = 0; digit < 9; digit++)
+      {
+        switch (digit) 
+        {
           case 0:           // i  (comment out pins that do not change, low is on, high is off)
             digitalWrite(SegmentA, SegmentOff);
             digitalWrite(SegmentB, SegmentOff);

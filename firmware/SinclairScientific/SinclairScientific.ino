@@ -184,10 +184,20 @@ void updateDisplay()
 
 }
 
+// NOTE: it takes a few seconds for the Arduino to initialize.
+// During that time, the LED drive pins are floating so we can override
+// this weak function to set those pins as outputs and turn them off.
+void initVariant()
+{
+  allSegmentOutput();
+  allSegmentOff();
+
+  allDigitOutput();
+  allDigitOff();
+}
+
 void setup()
 {
-  // put your setup code here, to run once:
-
   Serial.begin(2000000);
 
   // makes it easier to see if an arduino is programmed or not
@@ -221,7 +231,7 @@ void setup()
   boolean failure = false;
 
   byte showlogo = true; //EEPROM.read(1);
-  if (showlogo != 0) {
+  if (showlogo) {
     showlogo = 255;
     SinclairLogo();
     //CasioLogo();
@@ -277,7 +287,7 @@ void loop()
     digitalWrite(13, HB);
   }
 
-  
+
   // put your main code here, to run repeatedly:
   char key;
 
